@@ -1,0 +1,38 @@
+<header id="header">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="nav-bar right">
+          <div class="icon-bar five-up">
+            <a class="item" href="/">
+              <i class="fa fa-home"></i>
+              <label>Home</label>
+            </a>
+            <a class="item" href="/categories/printed">
+              <i class="fa fa-file-image-o"></i>
+              <label>Printed</label>
+            </a>
+            <a class="item" href="/categories/web">
+              <i class="fa fa-laptop"></i>
+              <label>Web</label>
+            </a>
+            <a class="item" href="/categories/sketches">
+              <i class="fa fa-pencil"></i>
+              <label style="margin-left: -0.5rem;">Sketches</label>
+            </a>
+            <a class="item" href="/about-me">
+              <i class="fa fa-user"></i>
+              <label>Myself</label>
+            </a>
+          </div>
+      </div>
+      <h1 id="logo-wrap">
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+      </h1>
+      <% if (theme.subtitle){ %>
+      <h2 id="subtitle-wrap">
+        <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+      </h2>
+      <% } %>
+    </div>
+  </div>
+</header>

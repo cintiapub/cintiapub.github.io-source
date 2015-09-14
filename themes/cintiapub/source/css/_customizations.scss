@@ -1,0 +1,18 @@
+header#header {
+	div.icon-bar {
+		label {
+			cursor: inherit;
+		}
+	}
+}
+
+footer#footer {
+	ul.inline-list {
+		a {
+			color: #333333;
+			&:hover {
+				color: #008CBA;
+			}
+		}
+	}
+}

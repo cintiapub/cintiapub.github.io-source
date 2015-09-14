@@ -1,0 +1,14 @@
+<%- partial('_partial/head') %>
+<body>
+  <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+  <section id="main">
+  <div class="row">
+    <hr>
+    <div class="large-12 columns">
+      <%- body %>
+    </div>
+  </section>
+  <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+  <%- partial('_partial/after-footer') %>
+</body>
+</html>
