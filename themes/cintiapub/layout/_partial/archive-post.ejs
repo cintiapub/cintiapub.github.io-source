@@ -1,6 +1,3 @@
-<div class="image-wrapper overlay-fade-in">
-	<img src="<%- url_for(post.photos[0]) %>" class="post-thumbnail" itemprop="image">
-	<div class="image-overlay-content">
-        <a href="<%- url_for(post.path) %>"><h2><%= post.title %></h2></a>
-    </div>
-</div>
+<a class="image-link" href="<%- url_for(post.image) %>" title="<%= post.client %>: <%= post.title %>" data-client="<%= post.client %>" data-description="<%= post.description %>">
+	<img src="<%- url_for(post.thumb) %>" itemprop="image">
+</a>
