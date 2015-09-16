@@ -16,7 +16,7 @@
     <% var year = post.date.year(); %>
     <% if (last != year){ %>
       <% if (last != null){ %>
-        </ul></div></section><hr>
+        </ul></div></div></section><hr>
       <% } %>
       <% last = year; %>
       <section class="archives-wrap">
@@ -25,11 +25,11 @@
         </div>
         <div class="row">
           <div class="large-12 columns">
-            <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-4" data-clearing>
+            <ul class="image-grid small-block-grid-2 medium-block-grid-3 large-block-grid-4 text-center" data-clearing>
     <% } %>
     <li><%- partial('archive-post', {post: post, even: i % 2 == 0}) %></li>
   <% }) %>
   <% if (page.posts.length){ %>
-    </ul></div></section>
+    </ul></div></div></section>
   <% } %>
 <% } %>

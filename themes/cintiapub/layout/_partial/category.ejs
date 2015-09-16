@@ -1,0 +1,19 @@
+<section class="archives-wrap">
+  <div class="row">
+    <div class="large-12 columns">
+      <ul class="image-grid small-block-grid-2 medium-block-grid-3 large-block-grid-4 text-center" data-clearing>
+        <% page.posts.each(function(post, i){ %>
+          <li><%- partial('archive-post', {post: post, even: i % 2 == 0}) %></li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+</section>
+<% if (page.total > 1){ %>
+  <nav id="page-nav">
+    <%- paginator({
+      prev_text: '&laquo; Prev',
+      next_text: 'Next &raquo;'
+    }) %>
+  </nav>
+<% } %>

@@ -17,6 +17,15 @@ footer#footer {
 	}
 }
 
-.post-thumbnail {
-	
+ul.image-grid {
+	li {
+		height: 200px;
+		overflow: hidden;
+		margin-bottom: 20px;
+
+		a.image-link {
+			line-height: 200px;
+			display: inline-block;
+		}
+	}	
 }
