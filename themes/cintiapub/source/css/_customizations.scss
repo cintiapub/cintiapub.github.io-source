@@ -1,3 +1,7 @@
+body {
+	background-image: url('/img/square_bg.png');
+}
+
 header#header {
 	div.icon-bar {
 		label {
@@ -26,6 +30,9 @@ ul.image-grid {
 		a.image-link {
 			line-height: 200px;
 			display: inline-block;
+			overflow: hidden;
+			border: 1px solid #cccccc;
+    		height: 200px;
 		}
 	}	
 }

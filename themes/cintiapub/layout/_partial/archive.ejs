@@ -3,14 +3,35 @@
     <%- partial('article', {post: post, index: true}) %>
   <% }) %>
   <% if (page.total > 1){ %>
-    <nav id="page-nav">
-      <%- paginator({
-        prev_text: '&laquo; Prev',
-        next_text: 'Next &raquo;'
-      }) %>
-    </nav>
-  <% } %>
-<% } else { %>
+    <div class="pagination-centered">
+      <ul class="pagination" role="menubar" aria-label="Pagination">
+        <% if (page.prev){ %>
+          <li class="arrow"><a href="<%- url_for(page.prev_link) %>">&laquo; Previous</a></li>
+        <% } else { %>
+          <li class="arrow unavailable" aria-disabled="true"><a>&laquo; Previous</a></li>
+        <% } %>
+
+        <% for (var i=1; i <= page.total; i++) { %>
+          <% if (page.current === i){ %>
+            <li class="current" aria-disabled="true"><a><%= i %></a></li>
+          <% } else { %>
+            <%
+              var pageURL = (i === 1)? '': 'page/' + i + '/';
+              var prefix = page.path.split('page/')[0].replace('index.html', '');
+            %>
+            <li><a href="<%- url_for(prefix + pageURL) %>"><%= i %></a></li>
+          <% } %>
+        <% } %>
+
+        <% if (page.next){ %>
+          <li class="arrow"><a href="<%- url_for(page.next_link) %>">Next &raquo;</a></li>
+        <% } else { %>
+          <li class="arrow unavailable" aria-disabled="true"><a>Next &raquo;</a></li>
+        <% } %>
+      </ul>
+    </div>
+    <% } %>
+  <% } else { %>
   <% var last; %>
   <% page.posts.each(function(post, i){ %>
     <% var year = post.date.year(); %>
