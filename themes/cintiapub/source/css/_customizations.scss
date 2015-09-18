@@ -3,6 +3,19 @@ body {
 }
 
 header#header {
+	height:94px;
+
+	h1#logo-wrap {
+		font-family: 'Give You Glory', cursive;
+	    line-height: 94px;
+	    padding-top: 6px;
+
+	    a {
+	    	color: #333;
+    		font-size: 1.3em;
+	    }
+	}
+
 	div.icon-bar {
 		label {
 			cursor: inherit;

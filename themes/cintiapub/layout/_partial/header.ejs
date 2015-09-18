@@ -26,7 +26,7 @@
           </div>
       </div>
       <h1 id="logo-wrap">
-        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+        <a href="<%- url_for() %>" id="logo"><%= config.title.toUpperCase() %></a>
       </h1>
       <% if (theme.subtitle){ %>
       <h2 id="subtitle-wrap">
