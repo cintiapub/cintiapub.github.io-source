@@ -13,6 +13,9 @@ header#header {
 	    a {
 	    	color: #333;
     		font-size: 1.3em;
+    		&:hover {
+				color: #008CBA;
+			}
 	    }
 	}
 
