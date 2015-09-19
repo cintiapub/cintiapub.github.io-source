@@ -6,25 +6,42 @@ body {
 }
 
 header#header {
-	height:94px;
+	nav.top-bar {
+	    padding: 0 20px;
 
-	h1#logo-wrap {
-		font-family: 'Give You Glory', cursive;
-	    line-height: 94px;
-	    padding-top: 6px;
-
-	    a {
-	    	color: #333;
-    		font-size: 1.3em;
-    		&:hover {
-				color: #008CBA;
-			}
+	    li.toggle-topbar {
+	    	top: 10px;
 	    }
-	}
 
-	div.icon-bar {
-		label {
-			cursor: inherit;
+		h1#logo-wrap {
+			font-family: 'Give You Glory', cursive;
+		    line-height: 94px;
+		    padding-top: 6px;
+		    margin: 0;
+		    font-size: 35px;
+
+		    a {
+		    	color: #eee;
+	    		font-size: 1.3em;
+	    		&:hover {
+					color: #008CBA;
+				}
+		    }
+		}
+
+		section.top-bar-section {
+			a.item {
+    		    line-height: 31px;
+			    padding-top: 15px;
+			    padding-bottom: 10px;
+    			text-align: center;
+	    		label {
+	    			color: #aaa;
+	    		}
+	    		&:hover, &:hover label {
+					color: #008CBA;
+				}
+			}
 		}
 	}
 }
@@ -42,6 +59,7 @@ footer#footer {
 
 section#main {
 	font-family: 'Merriweather', serif;
+	padding-top: 20px;
 
 	ul.image-grid {
 		li {

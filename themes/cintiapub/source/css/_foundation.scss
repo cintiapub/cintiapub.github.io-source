@@ -3,6 +3,7 @@
 // Licensed under MIT Open Source
 
 // Make sure the charset is set appropriately
+@import 'foundation/settings';
 
 // Behold, here are all the Foundation components.
 @import 'foundation/components/grid';
@@ -17,7 +18,7 @@
 // @import 'foundation/components/dropdown-buttons';
 // @import 'foundation/components/flex-video';
 // @import 'foundation/components/forms';
-@import 'foundation/components/icon-bar';
+//@import 'foundation/components/icon-bar';
 @import 'foundation/components/inline-lists';
 // @import 'foundation/components/joyride';
 // @import 'foundation/components/keystrokes';
@@ -38,7 +39,7 @@
 // @import 'foundation/components/tabs';
 // @import 'foundation/components/thumbs';
 // @import 'foundation/components/tooltips';
-// @import 'foundation/components/top-bar';
+@import 'foundation/components/top-bar';
 @import 'foundation/components/type';
 // @import 'foundation/components/offcanvas';
 // @import 'foundation/components/visibility';
