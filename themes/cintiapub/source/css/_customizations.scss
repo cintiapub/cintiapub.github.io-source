@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700|Give+You+Glory);
+
 body {
 	background-image: url('/img/swirl.png');
+	font-family: 'Open Sans', sans-serif;
 }
 
 header#header {
@@ -37,18 +40,29 @@ footer#footer {
 	}
 }
 
-ul.image-grid {
-	li {
-		height: 200px;
-		overflow: hidden;
-		margin-bottom: 20px;
+section#main {
+	font-family: 'Merriweather', serif;
 
-		a.image-link {
-			line-height: 200px;
-			display: inline-block;
+	ul.image-grid {
+		li {
+			height: 200px;
 			overflow: hidden;
-			border: 1px solid #cccccc;
-    		height: 200px;
+			margin-bottom: 20px;
+
+			a.image-link {
+				line-height: 200px;
+				display: inline-block;
+				overflow: hidden;
+				border: 1px solid #cccccc;
+	    		height: 200px;
+			}
+		}	
+	}
+
+	p.avatar {
+		text-align: center;
+		img {
+			border-radius: 100%;
 		}
-	}	
+	}
 }
