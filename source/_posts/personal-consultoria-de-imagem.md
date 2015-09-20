@@ -6,6 +6,5 @@ date: 2013/8/1
 tags: 
 - personal
 - poster
-thumb: https://farm6.staticflickr.com/5730/21242958160_d6dcd79cb7_n.jpg
-image: https://farm6.staticflickr.com/5730/21242958160_d6dcd79cb7_b.jpg
+image: https://farm6.staticflickr.com/5730/21242958160_d6dcd79cb7
 ---

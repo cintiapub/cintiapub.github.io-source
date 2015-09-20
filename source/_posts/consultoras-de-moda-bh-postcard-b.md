@@ -6,6 +6,5 @@ date: 2013/10/1
 tags: 
 - consultoras de moda bh
 - postcard
-thumb: https://farm6.staticflickr.com/5784/21244132209_603ec0dcb8_n.jpg
-image: https://farm6.staticflickr.com/5784/21244132209_603ec0dcb8_b.jpg
+image: https://farm6.staticflickr.com/5784/21244132209_603ec0dcb8
 ---

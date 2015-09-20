@@ -6,6 +6,5 @@ date: 2013/8/1
 tags: 
 - una
 - postcard
-thumb: https://farm6.staticflickr.com/5648/21431018805_c610638021_n.jpg
-image: https://farm6.staticflickr.com/5648/21431018805_c610638021_b.jpg
+image: https://farm6.staticflickr.com/5648/21431018805_c610638021
 ---

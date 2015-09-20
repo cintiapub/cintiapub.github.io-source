@@ -7,6 +7,5 @@ tags:
 - una
 - tri-fold
 - brochure
-thumb: https://farm1.staticflickr.com/610/21404788426_556f5cef03_n.jpg
-image: https://farm1.staticflickr.com/610/21404788426_556f5cef03_b.jpg
+image: https://farm1.staticflickr.com/610/21404788426_556f5cef03
 ---

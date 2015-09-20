@@ -6,6 +6,5 @@ date: 2014/3/1
 tags: 
 - personal
 - fashion
-thumb: https://farm6.staticflickr.com/5690/21511487251_4d22d0f4ea_n.jpg
-image: https://farm6.staticflickr.com/5690/21511487251_4d22d0f4ea_b.jpg
+image: https://farm6.staticflickr.com/5690/21511487251_4d22d0f4ea
 ---

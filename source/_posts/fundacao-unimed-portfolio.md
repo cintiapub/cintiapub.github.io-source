@@ -6,6 +6,5 @@ date: 2013/11/1
 tags: 
 - fundacao unimed
 - folder 
-thumb: https://farm1.staticflickr.com/739/21243206888_5a217cbf54_n.jpg
-image: https://farm1.staticflickr.com/739/21243206888_5a217cbf54_b.jpg
+image: https://farm1.staticflickr.com/739/21243206888_5a217cbf54
 ---

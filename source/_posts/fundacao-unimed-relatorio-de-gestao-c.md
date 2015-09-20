@@ -6,6 +6,5 @@ date: 2013/1/2
 tags: 
 - fundacao unimed
 - booklet
-thumb: https://farm6.staticflickr.com/5676/21431015325_01946e7826_n.jpg
-image: https://farm6.staticflickr.com/5676/21431015325_01946e7826_b.jpg
+image: https://farm6.staticflickr.com/5676/21431015325_01946e7826
 ---

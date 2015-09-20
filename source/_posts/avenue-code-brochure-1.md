@@ -6,6 +6,5 @@ date: 2011/8/1
 tags: 
 - avenue code
 - flyer
-thumb: https://farm1.staticflickr.com/610/21243197778_5b35c1512e_n.jpg
-image: https://farm1.staticflickr.com/610/21243197778_5b35c1512e_b.jpg
+image: https://farm1.staticflickr.com/610/21243197778_5b35c1512e
 ---

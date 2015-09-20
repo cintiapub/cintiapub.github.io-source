@@ -7,6 +7,5 @@ tags:
 - ccsf
 - tri-fold
 - brochure
-thumb: https://farm1.staticflickr.com/657/21431009345_b4a6cb8a00_n.jpg
-image: https://farm1.staticflickr.com/657/21431009345_b4a6cb8a00_b.jpg
+image: https://farm1.staticflickr.com/657/21431009345_b4a6cb8a00
 ---

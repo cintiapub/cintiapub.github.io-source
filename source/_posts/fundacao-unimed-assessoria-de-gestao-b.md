@@ -7,6 +7,5 @@ tags:
 - fundacao unimed
 - bi-fold
 - brochure
-thumb: https://farm6.staticflickr.com/5774/21242946810_6e98354277_n.jpg
-image: https://farm6.staticflickr.com/5774/21242946810_6e98354277_b.jpg
+image: https://farm6.staticflickr.com/5774/21242946810_6e98354277
 ---

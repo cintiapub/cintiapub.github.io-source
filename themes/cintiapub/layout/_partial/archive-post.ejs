@@ -1,3 +1,4 @@
-<a class="image-link" href="<%- url_for(post.image) %>" title="<%= post.client %>: <%= post.title %>" data-client="<%= post.client %>" data-description="<%= post.description %>">
-	<img src="<%- url_for(post.thumb) %>" itemprop="image">
+<a class="image-link" href="<%- url_for(post.image) %>_h.jpg" data-width="1600" data-height="1067" data-med-href="<%- url_for(post.image) %>_b.jpg" data-med-width="1024" data-med-height="683" title="<%= post.client %>: <%= post.title %>" data-client="<%= post.client %>" data-description="<%= post.description %>">
+	<img src="<%- url_for(post.image) %>_n.jpg" itemprop="image">
+	<figure><%= post.client %>: <%= post.title %></figure>
 </a>

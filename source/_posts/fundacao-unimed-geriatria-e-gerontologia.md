@@ -7,6 +7,5 @@ tags:
 - fundacao unimed
 - tri-fold
 - brochure
-thumb: https://farm6.staticflickr.com/5641/21242954710_8ab0e7cc7a_n.jpg
-image: https://farm6.staticflickr.com/5641/21242954710_8ab0e7cc7a_b.jpg
+image: https://farm6.staticflickr.com/5641/21242954710_8ab0e7cc7a
 ---

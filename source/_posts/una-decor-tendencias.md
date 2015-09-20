@@ -6,6 +6,5 @@ date: 2013/8/1
 tags: 
 - una
 - poster
-thumb: https://farm6.staticflickr.com/5715/21439478521_8aef1a51cb_n.jpg
-image: https://farm6.staticflickr.com/5715/21439478521_8aef1a51cb_b.jpg
+image: https://farm6.staticflickr.com/5715/21439478521_8aef1a51cb
 ---

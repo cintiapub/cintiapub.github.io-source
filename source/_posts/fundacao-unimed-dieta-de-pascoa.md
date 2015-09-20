@@ -6,6 +6,5 @@ date: 2013/4/1
 tags: 
 - fundacao unimed
 - poster
-thumb: https://farm6.staticflickr.com/5835/21242952360_31b695838d_n.jpg
-image: https://farm6.staticflickr.com/5835/21242952360_31b695838d_b.jpg
+image: https://farm6.staticflickr.com/5835/21242952360_31b695838d
 ---

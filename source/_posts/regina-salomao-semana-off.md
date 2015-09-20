@@ -6,6 +6,5 @@ date: 2014/4/1
 tags: 
 - regina salomao
 - email marketing
-thumb: https://farm1.staticflickr.com/696/20860242794_23bb9c7c13_n.jpg
-image: https://farm1.staticflickr.com/696/20860242794_23bb9c7c13_b.jpg
+image: https://farm1.staticflickr.com/696/20860242794_23bb9c7c13
 ---

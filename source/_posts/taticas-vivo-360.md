@@ -6,6 +6,5 @@ date: 2012/6/1
 tags: 
 - taticas
 - e-learning screen
-thumb: https://farm1.staticflickr.com/731/21294913590_420f14acf9_n.jpg
-image: https://farm1.staticflickr.com/731/21294913590_420f14acf9_b.jpg
+image: https://farm1.staticflickr.com/731/21294913590_420f14acf9
 ---

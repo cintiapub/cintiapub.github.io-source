@@ -6,6 +6,5 @@ date: 2013/9/1
 tags: 
 - fundacao unimed
 - pamphlet
-thumb: https://farm1.staticflickr.com/739/21439473181_3283cd0527_n.jpg
-image: https://farm1.staticflickr.com/739/21439473181_3283cd0527_b.jpg
+image: https://farm1.staticflickr.com/739/21439473181_3283cd0527
 ---

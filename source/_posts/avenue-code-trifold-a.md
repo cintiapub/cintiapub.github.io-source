@@ -7,6 +7,5 @@ tags:
 - avenue code
 - tri-fold
 - brochure
-thumb: https://farm6.staticflickr.com/5803/20809947523_39f8d6655f_n.jpg
-image: https://farm6.staticflickr.com/5803/20809947523_39f8d6655f_b.jpg
+image: https://farm6.staticflickr.com/5803/20809947523_39f8d6655f
 ---

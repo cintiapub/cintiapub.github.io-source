@@ -6,6 +6,5 @@ date: 2014/3/5
 tags: 
 - regina salomao
 - instagram image
-thumb: https://farm6.staticflickr.com/5753/21456729466_07e5d6f68d_n.jpg
-image: https://farm6.staticflickr.com/5753/21456729466_07e5d6f68d_b.jpg
+image: https://farm6.staticflickr.com/5753/21456729466_07e5d6f68d
 ---
