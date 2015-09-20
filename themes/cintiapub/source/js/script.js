@@ -115,22 +115,12 @@
 
 			return {
 				src: $el.attr('href'),
-				w: 0,//$el.data('width'),
-				h: 0,//$el.data('height'),
+				w: 0,
+				h: 0,
 				el: el,
 				mrsc: $el.find('img').attr('src'),
 				title: $el.attr('title'),
-				description: $el.data('description'),
-				m: {
-					src: $el.data('med-href'),
-					w: $el.data('med-width'),
-					h: $el.data('med-height')
-				},
-				o: {
-					src: $el.attr('href'),
-					w: $el.data('width'),
-					h: $el.data('height')
-				}
+				description: $el.data('description')				
 			};
 		});
 	}
