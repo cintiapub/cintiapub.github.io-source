@@ -6,14 +6,15 @@
 
 	function startPhotoSwipe(container) {
 		var $container = $(container),
+			$items = $container.find('a.image-link'),
 			hashData;
 
-		items = buildItems(container);
+		items = buildItems($items);
+
+		$items.on('click', onThumbnailsClick);
 
 		$container.each(function(index, el){
-			$(el)
-				.attr('data-pswp-uid', index)
-				.on('click', onThumbnailsClick);
+			$(el).attr('data-pswp-uid', index + 1);				
 		});
 
 		// Parse URL and open gallery if it contains #&pid=3&gid=1
@@ -28,13 +29,13 @@
 
 		e.preventDefault();
 
-		openPhotoSwipe($el.index('.image-link'), $el.closest('ul.image-grid') );
+		openPhotoSwipe($el.index('.image-link'), $el.closest('ul.image-grid')[0] );
 	}
 
 	function openPhotoSwipe(index, galleryElement, disableAnimation, fromURL) {
 		var pswpElement = $('.pswp')[0],
 			options = {
-				galleryUID: galleryElement.attr('data-pswp-uid'),
+				galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 		        getThumbBoundsFn: function(index) {
 		            // See Options->getThumbBoundsFn section of docs for more info
 		            var thumbnail = items[index].el.children[0],
@@ -157,7 +158,7 @@
 
 	$(document).ready(function() {
   	  $(document).foundation('topbar', 'reflow');
-	  startPhotoSwipe('ul.image-grid a.image-link');
+	  startPhotoSwipe('ul.image-grid');
 	});
 })(jQuery);
 
