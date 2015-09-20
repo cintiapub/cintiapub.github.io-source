@@ -1,10 +1,30 @@
 title: Myself
 layout: myself
 ---
-I started as a Visual Designer and I have 7+ years experience in the graphic design field, designing mostly for Education and Fashion fields. 
+I started as a Visual Designer in Brazil and I have 7+ years experience with graphic design, designing mostly for Education and Fashion fields. 
 
-In my projects I developed visual design for printed and online media. I did campaigns, infographics, advertising collections, institutional communication and fashion editorials. I retouched a lot of photography for catalogues, advertised and updated designs for social networks. 
+In my projects I developed visual designs for printed and online media. I did campaigns, infographics, advertising collections, institutional communication and fashion editorials. I retouched a lot of photographs for catalogs, and I also did social media graphic design and marketing.
 
-I have experience in Marketing, Printed, Web Design, Social Media and Visual Design. 
+Since April 2014, I have been working in Fashion retail, which helped me to better understand the local consumer behavior and also to improve my English. I am looking for working again with graphic design. Since I am bi-lingual I can also bridge the work with your Latin America office.
 
-Since April 2014, I have been working in Fashion retail, that helped me a lot better understand the consumer behavior and to improve my english and I am grateful for this experience. I am looking for working again with Graphic design. Since I am bi-lingual I can also bridge the work with a Latin America office.
+### Skillset
+
+- **Skills**: Graphic design, Web design, Illustration, Creative Fashion, Styling, Sales, Portuguese.
+- **Softwares**: Photoshop, InDesign, Illustrator, HTML5, CSS3, CorelDraw, Fireworks, DreamWeaver, Office.
+- **Languages**: English and Portuguese.
+
+### Education
+
+- **University of California, Berkeley (USA)**
+Professional Sequence in Graphic Design
+2015-2016
+
+- **Centro Universitário UNA, Belo Horizonte (Brazil) **
+MBA in Creative Direction for Fashion
+2013-2014
+
+- **Universidade Estácio de Sá, Belo Horizonte (Brazil) **
+BA in Advertising and Marketing
+2007-2010
+
+**[See more on LinkedIn](https://www.linkedin.com/in/cintiaromero)**.
