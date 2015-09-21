@@ -48,7 +48,11 @@
 						captionEl.children[0].innerText = '';
 						return false;
 					}
-					captionEl.children[0].innerHTML = item.title +  '<br/><small>' + item.description + '</small>';
+					captionEl.children[0].innerHTML = item.title + '<br/><small>' + item.description + '</small>';
+
+					if (item.software) {
+						captionEl.children[0].innerHTML += ' <small><b>Software</b>: ' + item.software + '.</small>'
+					}
 					return true;
 		        },
 		        index: fromURL? parseInt(index, 10) - 1: parseInt(index, 10)
@@ -120,7 +124,8 @@
 				el: el,
 				mrsc: $el.find('img').attr('src'),
 				title: $el.attr('title'),
-				description: $el.data('description')				
+				description: $el.data('description'),
+				software: $el.data('software').replace(',', ', ')
 			};
 		});
 	}

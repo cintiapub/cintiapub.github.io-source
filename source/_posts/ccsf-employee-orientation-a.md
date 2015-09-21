@@ -1,11 +1,11 @@
 title: Employee orientation tri-fold (front)
 client: City College of San Francisco
-description: This tri-fold brochure is meant to give information about Employee orientation.
+description: This tri-fold is meant to give information about Employee orientation.
 category: printed
 date: 2014/8/2
-tags: 
-- ccsf
-- tri-fold
-- brochure
 image: https://farm6.staticflickr.com/5638/21439468121_64b8b25b20
+type: Tri-fold
+software:
+- Photoshop
+- InDesign
 ---

@@ -3,8 +3,8 @@ client: Personal
 description: This fashion sketch is about might baroque.
 category: sketches
 date: 2014/3/1
-tags: 
-- personal
-- fashion
 image: https://farm6.staticflickr.com/5756/21315044598_436047ce3e
+type: Illustration	
+software:
+- Photoshop
 ---
