@@ -84,6 +84,11 @@ section#main {
 				overflow: hidden;
 				border: 1px solid #cccccc;
 	    		height: 200px;
+
+	    		&:hover {
+	    			opacity: 0.6;
+					transition: all .25s ease-in-out;
+	    		}    			   				
 			}
 		}	
 	}

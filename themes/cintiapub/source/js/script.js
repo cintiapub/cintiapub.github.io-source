@@ -125,7 +125,7 @@
 				mrsc: $el.find('img').attr('src'),
 				title: $el.attr('title'),
 				description: $el.data('description'),
-				software: $el.data('software').replace(',', ', ')
+				software: $el.data('software').replace('undefined', '').replace(',', ', ')
 			};
 		});
 	}
