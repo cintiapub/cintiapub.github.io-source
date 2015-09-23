@@ -28,3 +28,7 @@ BA in Advertising and Marketing
 2007-2010
 
 **[See more on LinkedIn](https://www.linkedin.com/in/cintiaromero)**.
+
+### Contact me
+
+**[Send me an email](mailto:cintiapub+contact@gmail.com)**.

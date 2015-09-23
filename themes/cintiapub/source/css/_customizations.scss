@@ -84,10 +84,22 @@ section#main {
 				overflow: hidden;
 				border: 1px solid #cccccc;
 	    		height: 200px;
+	    		position: relative;
+
+	    		&::before {
+				    content: '';
+				    height: 200px;
+				    position: absolute;
+				    width: 100%;
+				    background-color: rgba(0,0,0, 0.4);
+				    transition: all 0.4s ease-in-out;
+				    opacity: 0;
+				}
 
 	    		&:hover {
-	    			opacity: 0.6;
-					transition: all .25s ease-in-out;
+	    			&::before {
+	    				opacity: 1;
+	    			}					
 	    		}    			   				
 			}
 		}	
