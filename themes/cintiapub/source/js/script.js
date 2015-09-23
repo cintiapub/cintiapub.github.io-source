@@ -2,7 +2,7 @@
 
 (function($){
 
-	var items;
+	var items, gallery;
 
 	function startPhotoSwipe(container) {
 		var $container = $(container),
@@ -18,10 +18,11 @@
 		});
 
 		// Parse URL and open gallery if it contains #&pid=3&gid=1
-		hashData = photoSwipeParseHash();
-		if (hashData.pid && hashData.gid) {
-			openPhotoSwipe(hashData.pid, $container[hashData.gid - 1], true, true );
-		}
+		window.addEventListener('popstate', function(event) {
+			openGalleryFromHash($container);			
+		});
+
+		openGalleryFromHash($container);
 	}
 
 	function onThumbnailsClick(e) {
@@ -29,7 +30,7 @@
 
 		e.preventDefault();
 
-		openPhotoSwipe($el.index('.image-link'), $el.closest('ul.image-grid')[0] );
+		openPhotoSwipe($el.index('.image-link'), $el.closest('ul.image-grid')[0], true);
 	}
 
 	function openPhotoSwipe(index, galleryElement, disableAnimation, fromURL) {
@@ -55,7 +56,8 @@
 					}
 					return true;
 		        },
-		        index: fromURL? parseInt(index, 10) - 1: parseInt(index, 10)
+		        index: fromURL? parseInt(index, 10) - 1: parseInt(index, 10),
+		        shareEl: false
 			},
 			useLargeImages = false,
 		    firstResize = true,
@@ -67,6 +69,11 @@
 
 		if (disableAnimation) {
 			options.showAnimationDuration = 0;
+			options.hideAnimationDuration = 0;
+		}
+
+		if (gallery) {
+			gallery.close();
 		}
  			    
 	    // Pass data to PhotoSwipe and initialize it
@@ -128,6 +135,13 @@
 				software: $el.data('software').replace('undefined', '').replace(',', ', ')
 			};
 		});
+	}
+
+	function openGalleryFromHash($container) {
+		var hashData = photoSwipeParseHash();
+		if (hashData.pid && hashData.gid) {
+			openPhotoSwipe(hashData.pid, $container[hashData.gid - 1], true, true);
+		}
 	}
 
 	function photoSwipeParseHash() {
