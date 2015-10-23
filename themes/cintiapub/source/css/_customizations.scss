@@ -25,7 +25,7 @@ header#header {
 
 		    a {
 		    	color: #eee;
-	    		font-size: 1.3em;
+	    		font-size: 1.1em;
 	    		&:hover {
 					color: #008CBA;
 				}
@@ -99,10 +99,10 @@ section#main {
 	    		&:hover {
 	    			&::before {
 	    				opacity: 1;
-	    			}					
-	    		}    			   				
+	    			}
+	    		}
 			}
-		}	
+		}
 	}
 
 	p.avatar {
