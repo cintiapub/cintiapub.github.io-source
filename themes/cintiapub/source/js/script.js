@@ -5,24 +5,26 @@
 	var items, gallery;
 
 	function startPhotoSwipe(container) {
-		var $container = $(container),
-			$items = $container.find('a.image-link'),
-			hashData;
+		var $container = $(container);
 
-		items = buildItems($items);
+		if ($container.length) {
+			var $items = $container.find('a.image-link');
 
-		$items.on('click', onThumbnailsClick);
+			items = buildItems($items);
 
-		$container.each(function(index, el){
-			$(el).attr('data-pswp-uid', index + 1);				
-		});
+			$items.on('click', onThumbnailsClick);
 
-		// Parse URL and open gallery if it contains #&pid=3&gid=1
-		window.addEventListener('popstate', function(event) {
-			openGalleryFromHash($container);			
-		});
+			$container.each(function(index, el){
+				$(el).attr('data-pswp-uid', index + 1);
+			});
 
-		openGalleryFromHash($container);
+			// Parse URL and open gallery if it contains #&pid=3&gid=1
+			window.addEventListener('popstate', function(event) {
+				openGalleryFromHash($container);
+			});
+
+			openGalleryFromHash($container);
+		}
 	}
 
 	function onThumbnailsClick(e) {
@@ -41,7 +43,7 @@
 		            // See Options->getThumbBoundsFn section of docs for more info
 		            var thumbnail = items[index].el.children[0],
 		                pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-		                rect = thumbnail.getBoundingClientRect(); 
+		                rect = thumbnail.getBoundingClientRect();
 		            return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
 		        },
 		        addCaptionHTMLFn: function(item, captionEl, isFake) {
@@ -75,11 +77,11 @@
 		if (gallery) {
 			gallery.close();
 		}
- 			    
+
 	    // Pass data to PhotoSwipe and initialize it
 	    gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
 
-	    // see: http://photoswipe.com/documentation/responsive-images.html			    
+	    // see: http://photoswipe.com/documentation/responsive-images.html
 		gallery.listen('beforeResize', function() {
 			var dpiRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;
 			dpiRatio = Math.min(dpiRatio, 2.5);
@@ -89,7 +91,7 @@
 		    		useLargeImages = true;
 		        	imageSrcWillChange = true;
 		    	}
-		        
+
 		    } else {
 		    	if(useLargeImages) {
 		    		useLargeImages = false;
@@ -106,7 +108,7 @@
 		});
 		gallery.listen('gettingData', function(index, item) {
 		    if (item.w < 1 || item.h < 1) { // unknown size
-		        var img = new Image(); 
+		        var img = new Image();
 		        img.onload = function() { // will get size after load
 		        	item.w = this.width; // set image width
 		        	item.h = this.height; // set image height
@@ -132,7 +134,7 @@
 				mrsc: $el.find('img').attr('src'),
 				title: $el.attr('title'),
 				description: $el.data('description'),
-				software: $el.data('software').replace('undefined', '').replace(',', ', ')
+				software: $el.data('software')? $el.data('software').replace('undefined', '').replace(',', ', '): ''
 			};
 		});
 	}
@@ -155,10 +157,10 @@
 	        if(!vars[i]) {
 	            continue;
 	        }
-	        var pair = vars[i].split('=');  
+	        var pair = vars[i].split('=');
 	        if(pair.length < 2) {
 	            continue;
-	        }           
+	        }
 	        params[pair[0]] = pair[1];
 	    }
 	    if(params.gid) {
@@ -169,6 +171,6 @@
 
 	$(document).ready(function() {
   	  $(document).foundation('topbar', 'reflow');
-	  startPhotoSwipe('ul.image-grid');
+	  startPhotoSwipe('ul.image-carousel');
 	});
 })(jQuery);

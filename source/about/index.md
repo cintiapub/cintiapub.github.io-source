@@ -1,7 +1,7 @@
-title: Myself
-layout: myself
+title: About
+layout: about
 ---
-I started as a Visual Designer in Brazil and I have 7+ years experience with graphic design, designing mostly for Education and Fashion fields. 
+I started as a Visual Designer in Brazil and I have 7+ years experience with graphic design, designing mostly for Education and Fashion fields.
 
 In my projects I developed visual designs for print and online media. I did campaigns, infographics, advertising collections, institutional communication and fashion editorials. I retouched a lot of photographs for catalogs, and I also did social media graphic design and marketing.
 

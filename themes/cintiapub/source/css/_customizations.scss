@@ -1,54 +1,60 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700|Give+You+Glory);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700|Poiret+One);
+@import 'foundation/functions';
 
 body {
-	background-image: url('/img/swirl.png');
+	background-image: url('/img/subtle_dots.png');
 	font-family: 'Open Sans', sans-serif;
 }
 
 header#header {
 	nav.top-bar {
-	    padding: 0 20px;
+		height: rem-calc(90);
 
-	    li.toggle-topbar {
-	    	top: 10px;
-	    	a {
-	    		padding-right: 0;
-	    	}
-	    }
-
-		h1#logo-wrap {
-			font-family: 'Give You Glory', cursive;
-		    line-height: 94px;
-		    padding-top: 6px;
-		    margin: 0;
-		    font-size: 35px;
-
-		    a {
-		    	color: #eee;
-	    		font-size: 1.1em;
-	    		&:hover {
-					color: #008CBA;
-				}
-
-				@media (max-width: 450px)  {
-					font-size: 1em;
-				}
-		    }
+		.top-bar-section {
+			position: relative;
+			top: 50%;
 		}
 
-		section.top-bar-section {
-			a.item {
-    		    line-height: 31px;
-			    padding-top: 15px;
-			    padding-bottom: 10px;
-    			text-align: center;
-	    		label {
-	    			color: #aaa;
-	    		}
-	    		&:hover, &:hover label {
-					color: #008CBA;
+		.title-area {
+
+			position: relative;
+			top: 58%;
+
+			#logo-wrap {
+				@media screen and (max-width: 550px) {
+					display: none;
+				}
+
+				font-family: 'Poiret One', cursive;
+				font-size: 3rem;
+				line-height: 1rem;
+			}
+		}
+
+		#logo {
+			float: left;
+			margin: 10px 10px 0 10px;
+		}
+
+		.has-form {
+			position: absolute;
+			top: 0;
+			left: 6rem; // adjust distance from left here
+			min-width: 14rem; // adjust width here
+
+			@media only screen and (max-width: 40em) {
+				min-width: 10rem;
+				top: 0.5rem;
+
+				.button {
+					height: 1.85rem;
 				}
 			}
+		}
+
+		.toggle-topbar.menu-icon {
+			top: 0;
+			margin-top: 0;
 		}
 	}
 }
@@ -83,24 +89,24 @@ section#main {
 				display: inline-block;
 				overflow: hidden;
 				border: 1px solid #cccccc;
-	    		height: 200px;
-	    		position: relative;
+				height: 200px;
+				position: relative;
 
-	    		&::before {
-				    content: '';
-				    height: 200px;
-				    position: absolute;
-				    width: 100%;
-				    background-color: rgba(0,0,0, 0.4);
-				    transition: all 0.4s ease-in-out;
-				    opacity: 0;
+				&::before {
+					content: '';
+					height: 200px;
+					position: absolute;
+					width: 100%;
+					background-color: rgba(0,0,0, 0.4);
+					transition: all 0.4s ease-in-out;
+					opacity: 0;
 				}
 
-	    		&:hover {
-	    			&::before {
-	    				opacity: 1;
-	    			}
-	    		}
+				&:hover {
+					&::before {
+						opacity: 1;
+					}
+				}
 			}
 		}
 	}

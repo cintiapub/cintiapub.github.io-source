@@ -1,39 +1,38 @@
 <header id="header" class="contain-to-grid">
   <nav class="top-bar" data-topbar role="navigation">
+    <span id="logo">
+      <a href="<%- url_for() %>"><img src="/img/logo.png" /></a>
+    </span>
+
     <ul class="title-area">
-      <li>
+      <li class="name">
         <h1 id="logo-wrap">
-          <a href="<%- url_for() %>" id="logo"><%= config.title.toUpperCase() %></a>
+          <a href="<%- url_for() %>"><%= config.title.toUpperCase() %></a>
         </h1>
       </li>
+
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar"><a href="#"><i class="fa fa-3x fa-bars"></i></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
-    
+
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="divider"></li>
-        <li><a class="item" href="/categories/print">
-          <i class="fa fa-3x fa-file-image-o"></i>
-          <label>Print</label>
-        </a></li>
-        <li class="divider"></li>
-        <li><a class="item" href="/categories/web">
-          <i class="fa fa-3x fa-laptop"></i>
-          <label>Web</label>
-        </a></li>
-        <li class="divider"></li>
-        <li><a class="item" href="/categories/sketches">
-          <i class="fa fa-3x fa-pencil"></i>
-          <label style="margin-left: -0.5rem;">Sketches</label>
-        </a></li>
-        <li class="divider"></li>
-        <li><a class="item" href="/myself">
-          <i class="fa fa-3x fa-user"></i>
-          <label>Myself</label>
-        </a></li>
-        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="<%- url_for() %>">Portfolio</a>
+          <ul class="dropdown">
+            <li><a href="/categories/poster">Posters</a></li>
+            <li><a href="/categories/brochure">Brochures</a></li>
+            <li><a href="/categories/logo">Logos</a></li>
+            <li><a href="/categories/digital-banner">Digital banners</a></li>
+            <li><a href="/categories/social-media">Social media</a></li>
+            <li><a href="/categories/e-learning">E-learning</a></li>
+            <li><a href="/categories/illustrations">Illustrations</a></li>
+            <li><a href="/categories/miscellany">Miscellany</a></li>
+          </ul>
+        </li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/resume">Resume</a></li>
       </ul>
     </section>
   </nav>
