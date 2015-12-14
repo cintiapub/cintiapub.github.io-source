@@ -1421,8 +1421,8 @@ $topbar-link-color: $graffity;
 // $topbar-link-font-size: rem-calc(13);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: $base;
-// $topbar-link-bg-color-hover: $charcoal;
+$topbar-link-bg-hover: $silver;
+// $topbar-link-bg-color-hover: $blue-link;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
@@ -1434,15 +1434,15 @@ $topbar-link-bg-hover: $base;
 // $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $silver;
+// $topbar-dropdown-bg: $silver;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
-$topbar-dropdown-link-bg: $base;
-$topbar-dropdown-link-bg-hover: $graffity;
+// $topbar-dropdown-link-bg: $base;
+// $topbar-dropdown-link-bg-hover: $graffity;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: $graffity;
-$topbar-dropdown-toggle-alpha: .8;
+// $topbar-dropdown-toggle-color: $graffity;
+// $topbar-dropdown-toggle-alpha: .8;
 
 // $topbar-dropdown-label-color: $monsoon;
 // $topbar-dropdown-label-text-transform: uppercase;
@@ -1454,8 +1454,8 @@ $topbar-dropdown-toggle-alpha: .8;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
-$topbar-menu-link-color: $graffity;
-$topbar-menu-icon-color: $graffity;
+// $topbar-menu-link-color: $graffity;
+// $topbar-menu-icon-color: $graffity;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
@@ -1463,7 +1463,7 @@ $topbar-menu-icon-color: $graffity;
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
-$topbar-breakpoint: 710px; // Change to 9999px for always mobile layout
+$topbar-breakpoint: 0px; // Change to 9999px for always mobile layout
 // $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 
 // Top-bar input styles
