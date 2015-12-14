@@ -1,4 +1,4 @@
-<footer id="footer">
+<!-- <footer id="footer">
   <footer class="row">
       <div class="large-12 columns">
         <hr/>
@@ -18,5 +18,55 @@
           </div>
         </div>
       </div>
-  </footer>    
+  </footer>
+</footer>
+ -->
+
+<footer id="footer">
+  <div class="row">
+    <div class="small-12 medium-6 medium-push-6 columns">
+      <form class="footer-form" action="http://formspree.io/cintiapub+contact@gmail.com" method="POST">
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <label for="email" class="contact">Contact Me</label>
+              <input type="email" name="_replyto" placeholder="Email Address" required />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <textarea rows="5" id="message" placeholder="Message" required></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-9 medium-push-3 columns">
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_subject" value="Message received from cintiaromero.com" />
+              <button class="submit" type="submit" value="Submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="small-12 medium-6 medium-pull-6 columns">
+      <p class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+        <a href="#">Faq</a>
+        <a href="#">Contact</a>
+      </p>
+      <ul class="inline-list social">
+        <li><a href="https://www.pinterest.com/cintiaromero313" target="_blank"><i class="fa fa-2x fa-pinterest-square"></i></a></li>
+        <li><a href="http://instagram.com/cintiaaaromero" target="_blank"><i class="fa fa-2x fa-instagram"></i></a></li>
+        <li><a href="http://twitter.com/cintiaaa_romero" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/cintiaromero" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+      </ul>
+      <p class="copywrite">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
+    </div>
+  </div>
 </footer>
