@@ -176,6 +176,7 @@ footer#footer {
 section#main {
 	font-family: 'Merriweather', serif;
 	padding-top: 2rem;
+	padding-bottom: 1rem;
 
 	.image-wrapper {
 		text-align: center;
@@ -219,5 +220,37 @@ section#main {
 		img {
 			border-radius: 100%;
 		}
+	}
+
+	.home-posters {
+		@include category-image-filter(#85ffcb);
+	}
+
+	.home-brochures {
+		@include category-image-filter(#ffdbe1);
+	}
+
+	.home-logos {
+		@include category-image-filter(#85b9ff);
+	}
+
+	.home-digital-banners {
+		@include category-image-filter(#c2f2d0);
+	}
+
+	.home-social-media {
+		@include category-image-filter(#ffcb85);
+	}
+
+	.home-e-learning {
+		@include category-image-filter(#ffc5d9);
+	}
+
+	.home-illustrations {
+		@include category-image-filter(#c5ffeb);
+	}
+
+	.home-miscellany {
+		@include category-image-filter(#cb85ff);
 	}
 }
