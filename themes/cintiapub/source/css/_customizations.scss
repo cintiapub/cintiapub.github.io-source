@@ -30,7 +30,7 @@ header#header {
 			top: 54%;
 
 			#logo-wrap {
-				@media screen and (max-width: 610px) {
+				@media screen and (max-width: 625px) {
 					display: none;
 				}
 
@@ -67,7 +67,7 @@ header#header {
 footer#footer {
 	background-color: $gainsboro;
 	font-size: 1.2rem;
-	padding: 1rem;
+	padding: 2rem;
 
 	h3 {
 		margin-bottom: 20px;
@@ -75,6 +75,7 @@ footer#footer {
 
 	.logo-footer {
 		font-family: 'Poiret One', cursive;
+	    font-weight: bold;
 	}
 
 	.social.inline-list > li {
@@ -92,19 +93,34 @@ footer#footer {
 	.footer-form {
 		textarea, input {
 			border-radius: 3px;
-			background-color: #1f2022;
+			background-color: $iron;
 			box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 			border: none;
 			resize: none;
 			font: inherit;
 			font-size: 0.875rem;
 			font-weight: normal;
-			color: #d1d2d2;
+			color: $oil;
 			padding: 1.3rem;
+
+			&::-webkit-input-placeholder {
+			   color: $graffity;
+			}
+
+			&:-moz-placeholder { /* Firefox 18- */
+			   color: $graffity;
+			}
+
+			&::-moz-placeholder {  /* Firefox 19+ */
+			   color: $graffity;
+			}
+
+			&:-ms-input-placeholder {
+			   color: $graffity;
+			}
 		}
 
 		label {
-			color: #fff;
 			font-size: 1.2rem;
 			margin: 0 0 1rem 0;
 			font-weight: bold;
@@ -112,13 +128,17 @@ footer#footer {
 
 		.submit {
 			border-radius: 3px;
-			background-color: #33383b;
+			background-color: $graffity;
 			color: #ffffff;
 			border: 0;
 			padding: 1rem 3.5rem;
 			font-weight: bold;
 			float: right;
 			margin: 0 1rem 0 0;
+
+			&:hover {
+				background-color: darken($graffity, 20%);
+			}
 		}
 	}
 
@@ -151,29 +171,11 @@ footer#footer {
 		}
 	}
 
-	@media only screen and (min-width: 40.063em) {
-		padding: 4rem;
-
-		p {
-			text-align: left;
-		}
-
-		.social {
-			text-align: left;
-			margin: 0;
-		}
-
-		.footer-form {
-			.contact {
-			}
-		}
-
-	}
 }
 
 section#main {
 	font-family: 'Merriweather', serif;
-	padding-top: 20px;
+	padding-top: 2rem;
 
 	.image-wrapper {
 		text-align: center;

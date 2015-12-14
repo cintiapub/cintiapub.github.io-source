@@ -1,34 +1,7 @@
 <footer id="footer">
   <div class="row">
-    <div class="small-12 medium-6 medium-push-6 columns">
-      <h3 class="logo-footer show-for-small-only">Cintia Romero</h3>
-      <form class="footer-form" action="http://formspree.io/cintiapub+contact@gmail.com" method="POST">
-        <div class="row">
-          <div class="medium-9 medium-push-3 columns">
-            <label>
-              <label for="email" class="contact">Contact Me</label>
-              <input type="email" name="_replyto" placeholder="Email Address" required />
-            </label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="medium-9 medium-push-3 columns">
-            <label>
-              <textarea rows="5" id="message" placeholder="Message" required></textarea>
-            </label>
-          </div>
-          <div class="row">
-            <div class="medium-9 medium-push-3 columns">
-              <input type="text" name="_gotcha" style="display:none" />
-              <input type="hidden" name="_subject" value="Message received from cintiaromero.com" />
-              <button class="submit" type="submit" value="Submit">Send</button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-    <div class="small-12 medium-6 medium-pull-6 columns">
-      <h3 class="logo-footer hide-for-small-only">Cintia Romero</h3>
+    <div class="small-12 medium-7 columns">
+      <h3 class="logo-footer">Cintia Romero</h3>
       <ul class="footer-links">
         <li><a href="/categories/poster">Posters</a></li>
         <li><a href="/categories/brochure">Brochures</a></li>
@@ -50,7 +23,35 @@
         <li><a href="http://twitter.com/cintiaaa_romero" target="_blank"><i class="fa fa-3x fa-twitter-square"></i></a></li>
         <li><a href="https://www.linkedin.com/in/cintiaromero" target="_blank"><i class="fa fa-3x fa-linkedin-square"></i></a></li>
       </ul>
-      <p class="copywrite">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
+      <p class="copywrite hide-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
+    </div>
+    <div class="small-12 medium-5 columns">
+      <form class="footer-form" action="http://formspree.io/cintiapub+contact@gmail.com" method="POST">
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>
+              <label for="email" class="contact">Contact Me</label>
+              <input type="email" name="_replyto" placeholder="Email Address" required />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>
+              <textarea rows="5" id="message" placeholder="Message" required></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-12 columns">
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_subject" value="Message received from cintiaromero.com" />
+              <button class="submit" type="submit" value="Submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <p class="copywrite show-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
     </div>
   </div>
