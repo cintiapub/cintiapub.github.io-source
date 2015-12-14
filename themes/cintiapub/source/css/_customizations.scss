@@ -223,34 +223,34 @@ section#main {
 	}
 
 	.home-posters {
-		@include category-image-filter(#85ffcb);
+		@include category-image-filter(#99FFCC);
 	}
 
 	.home-brochures {
-		@include category-image-filter(#ffdbe1);
+		@include category-image-filter(#99FFFF);
 	}
 
 	.home-logos {
-		@include category-image-filter(#85b9ff);
+		@include category-image-filter(#99CCFF);
 	}
 
 	.home-digital-banners {
-		@include category-image-filter(#c2f2d0);
+		@include category-image-filter(#9999FF);
 	}
 
 	.home-social-media {
-		@include category-image-filter(#ffcb85);
+		@include category-image-filter(#FFFF99);
 	}
 
 	.home-e-learning {
-		@include category-image-filter(#ffc5d9);
+		@include category-image-filter(#FFCC99);
 	}
 
 	.home-illustrations {
-		@include category-image-filter(#c5ffeb);
+		@include category-image-filter(#FF9999);
 	}
 
 	.home-miscellany {
-		@include category-image-filter(#cb85ff);
+		@include category-image-filter(#FF99CC);
 	}
 }
