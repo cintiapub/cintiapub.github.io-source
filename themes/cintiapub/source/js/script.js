@@ -170,7 +170,10 @@
 	}
 
 	$(document).ready(function() {
-  	  $(document).foundation('topbar', 'reflow');
-	  startPhotoSwipe('ul.image-carousel');
+		startPhotoSwipe('ul.image-carousel');
+
+		webshim.activeLang('en');
+		webshims.polyfill('forms');
+		webshims.cfg.no$Switch = true;
 	});
 })(jQuery);
