@@ -1,10 +1,111 @@
 <section class="archives-wrap">
+  <h2 class="title"><%- page.category %></h2>
   <div class="row">
     <div class="large-12 columns">
       <ul class="image-grid image-carousel small-block-grid-2 medium-block-grid-3 large-block-grid-4 text-center" data-clearing>
         <% page.posts.each(function(post, i){ %>
           <li><%- partial('archive-post', {post: post, even: i % 2 == 0}) %></li>
         <% }) %>
+
+        <% if (page.next === 0) { %>
+          <% if (page.category === 'miscellany') { %>
+          <li>
+            <div class="category-image home-posters">
+              <a href="/categories/posters" title="Posters">
+                <img src="https://farm1.staticflickr.com/572/21778707603_59021da5ea_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Posters</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'posters') { %>
+          <li>
+            <div class="category-image home-brochures">
+              <a href="/categories/brochures" title="Brochures">
+                <img src="https://farm6.staticflickr.com/5745/21439467621_b0b995312a_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Brochures</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'brochures') { %>
+          <li>
+            <div class="category-image home-logos">
+              <a href="/categories/logos" title="Logos">
+                <img src="https://farm1.staticflickr.com/695/22373809746_3947c530a6_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Logos</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'logos') { %>
+          <li>
+            <div class="category-image home-digital-banners">
+              <a href="/categories/digital-banners" title="Digital banners">
+                <img src="https://farm1.staticflickr.com/716/22212084128_a64a87f847_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Digital banners</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'digital banners') { %>
+          <li>
+            <div class="category-image home-social-media">
+              <a href="/categories/social-media" title="Social media">
+                <img src="https://farm6.staticflickr.com/5809/21456729876_df5374b2c1_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Social media</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'social media') { %>
+          <li>
+            <div class="category-image home-e-learning">
+              <a href="/categories/e-learning" title="E-learning">
+                <img src="https://farm1.staticflickr.com/698/21296049269_da873efdf3_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>E-learning</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'e-learning') { %>
+          <li>
+            <div class="category-image home-illustrations">
+              <a href="/categories/illustrations" title="Illustrations">
+                <img src="https://farm1.staticflickr.com/617/21315043768_e85b7ee555_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Illustrations</h2>
+              </div>
+            </div>
+          </li>
+
+          <% } else if (page.category === 'illustrations') { %>
+          <li>
+            <div class="category-image home-miscellany">
+              <a href="/categories/miscellany" title="Miscellany">
+                <img src="https://farm6.staticflickr.com/5728/21243202188_96a4e1a1bb_h.jpg" itemprop="image">
+              </a>
+              <div class="image-filter-background">
+                <h2>Miscellany</h2>
+              </div>
+            </div>
+          </li>
+          <% } %>
+        <% } %>
+
       </ul>
     </div>
   </div>

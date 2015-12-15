@@ -174,11 +174,17 @@ footer#footer {
 }
 
 section#main {
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 1rem;
 
 	.image-wrapper {
 		text-align: center;
+	}
+
+	h2.title {
+		text-transform: capitalize;
+	    font-size: 1.8rem;
+	    color: $graffity;
 	}
 
 	ul.image-grid {
