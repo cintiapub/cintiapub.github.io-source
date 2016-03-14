@@ -4,7 +4,7 @@ description: This brochure is intended to explore and demonstrate Avant Garde co
 category: brochures
 date: 2015/12/12
 image: https://farm1.staticflickr.com/593/23753913196_e33bb3c736
-type: Logo
+type: Brochure
 software:
 - InDesign
 ---
