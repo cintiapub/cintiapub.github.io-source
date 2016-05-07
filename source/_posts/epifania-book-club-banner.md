@@ -4,7 +4,7 @@ description: This banner was created to invite people to join to the Book Club e
 category: ads
 date: 2016/03/20
 image: https://farm2.staticflickr.com/1534/25316009903_6b1594e847
-type: Logo
+type: Banner
 software:
 - Illustrator
 ---
