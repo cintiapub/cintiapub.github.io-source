@@ -1,5 +1,5 @@
 title: O Bendito Pão de Queijo website
-client: Personal
+tag: Personal
 description: This webdesign was created for a Brazilian cheese bread business - <a href="http://cintiaromero.com/bendito" target="_blank">cintiaromero.com/bendito</a>
 category: web design
 date: 2016/08/07

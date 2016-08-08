@@ -1,5 +1,5 @@
 title: Hot lady
-client: Personal
+tag: Personal
 description: This fashion sketch is about hot lady.
 category: illustrations
 date: 2014/3/2

@@ -1,5 +1,5 @@
 title: Fresh retro
-client: Personal
+tag: Personal
 description: This fashion sketch is about fresh retro.
 category: illustrations
 date: 2014/3/2

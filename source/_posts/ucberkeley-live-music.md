@@ -1,5 +1,5 @@
 title: Live music
-client: UC Berkeley
+tag: UC Berkeley
 description: This poster was created to represent a Music Store.
 category: posters
 date: 2015/10/22

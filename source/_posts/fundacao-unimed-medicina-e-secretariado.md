@@ -1,5 +1,5 @@
 title: Medicina e Secretariado
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This pamphlet is meant to advertise Medical and Secretary courses.
 category: brochures
 date: 2013/10/1

@@ -1,5 +1,5 @@
 title: Internship flyer
-client: Epifania
+tag: Epifania
 description: Flyer to share an Internship opportunity at Epifania Magazine.
 category: brochures
 date: 2016/03/20

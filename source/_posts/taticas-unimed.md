@@ -1,5 +1,5 @@
 title: Unimed
-client: Táticas
+tag: Táticas
 description: This e-learning screen belongs to a corporate healthcare course.
 category: e-learning
 date: 2012/7/1

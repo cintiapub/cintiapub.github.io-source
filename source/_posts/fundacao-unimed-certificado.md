@@ -1,5 +1,5 @@
 title: Certificado
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This certificate was given to students which completed the courses.
 category: miscellany
 date: 2013/2/2

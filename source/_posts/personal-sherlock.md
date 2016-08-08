@@ -1,5 +1,5 @@
 title: Sherlock
-client: Personal
+tag: Personal
 description: This silhouette logo is intended to represent a dog.
 category: logos
 date: 2015/12/13

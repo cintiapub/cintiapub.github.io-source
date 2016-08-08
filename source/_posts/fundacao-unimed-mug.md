@@ -1,5 +1,5 @@
 title: Mug
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This printing design is for a customized mug.
 category: miscellany
 date: 2013/2/1

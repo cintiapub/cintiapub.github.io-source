@@ -1,5 +1,5 @@
 title: Lunch box
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This package design is for a customized lunch box.
 category: miscellany
 date: 2013/2/1

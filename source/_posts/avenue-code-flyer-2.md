@@ -1,5 +1,5 @@
 title: Company flyer 2012
-client: Avenue Code
+tag: Avenue Code
 description: This flyer was created to represent the company at conferences.
 category: brochures
 date: 2012/1/1

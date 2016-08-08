@@ -1,5 +1,5 @@
 title: Contemporary pinup
-client: Personal
+tag: Personal
 description: This fashion sketch is about romantic baroque.
 category: illustrations
 date: 2014/3/1

@@ -1,5 +1,5 @@
 title: Quote - Monday 4
-client: Epifania
+tag: Epifania
 description: Artwork to be posted on the Epifania's Instagram profile.
 category: ads
 date: 2016/08/07

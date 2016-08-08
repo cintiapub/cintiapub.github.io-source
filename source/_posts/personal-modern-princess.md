@@ -1,5 +1,5 @@
 title: Modern princess
-client: Personal
+tag: Personal
 description: This fashion sketch is about modern princess.
 category: illustrations
 date: 2014/3/2

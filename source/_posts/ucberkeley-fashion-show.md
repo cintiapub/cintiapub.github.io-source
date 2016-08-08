@@ -1,5 +1,5 @@
 title: Fashion show
-client: UC Berkeley
+tag: UC Berkeley
 description: This poster was created to advertise a Fashion Show event.
 category: posters
 date: 2015/10/22

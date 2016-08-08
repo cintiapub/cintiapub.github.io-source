@@ -1,5 +1,5 @@
 title: Company tri-fold (back)
-client: Avenue Code
+tag: Avenue Code
 description: This tri-fold brochure is meant to represent the company's business for potential clients.
 category: brochures
 date: 2011/4/1

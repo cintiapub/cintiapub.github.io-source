@@ -1,5 +1,5 @@
 title: Sale up to 50% off
-client: UC Berkeley
+tag: UC Berkeley
 description: This sign is for a promotional campaign.
 category: ads
 date: 2015/10/22

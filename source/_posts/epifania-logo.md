@@ -1,5 +1,5 @@
 title: Epifania logos
-client: Epifania
+tag: Epifania
 description: These logos were created to rebrand the Epifania magazine.
 category: logos
 date: 2016/03/13

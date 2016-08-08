@@ -1,5 +1,5 @@
 title: Epifania website
-client: Epifania
+tag: Epifania
 description: This webdesign was created for Epifania magazine - <a href="http://epifanialyl.com" target="_blank">epifanialyl.com</a>
 category: web design
 date: 2016/03/13

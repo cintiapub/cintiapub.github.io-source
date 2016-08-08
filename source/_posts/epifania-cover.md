@@ -1,5 +1,5 @@
 title: Cover
-client: Epifania
+tag: Epifania
 description: Banner created to be used as a cover on the Epifania's Youtube Channel
 category: ads
 date: 2016/03/20

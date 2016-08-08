@@ -1,5 +1,5 @@
 title: Conhecimento para ir mais longe
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This banner is for a courses campaign.
 category: ads
 date: 2013/6/1

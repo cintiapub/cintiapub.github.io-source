@@ -1,5 +1,5 @@
 title: Avant Garde poster
-client: UC Berkeley
+tag: UC Berkeley
 description: This poster is intended to explore and demonstrate Avant Garde concepts.
 category: posters
 date: 2015/12/13

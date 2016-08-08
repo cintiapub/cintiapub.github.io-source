@@ -1,5 +1,5 @@
 title: Sweet burlesque
-client: Personal
+tag: Personal
 description: This fashion sketch is about sweet burlesque.
 category: illustrations
 date: 2014/3/2

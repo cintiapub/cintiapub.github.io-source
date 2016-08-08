@@ -1,5 +1,5 @@
 title: Think about
-client: UC Berkeley
+tag: UC Berkeley
 description: This logo intended to make people think about some important cause in a company.
 category: logos
 date: 2015/10/22

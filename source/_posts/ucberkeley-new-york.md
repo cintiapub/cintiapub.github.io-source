@@ -1,5 +1,5 @@
 title: New York
-client: UC Berkeley
+tag: UC Berkeley
 description: This poster is intended to represent New York city in an tourism agency.
 category: posters
 date: 2015/10/22

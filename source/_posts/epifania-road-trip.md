@@ -1,5 +1,5 @@
 title: Road trip brochure
-client: Epifania
+tag: Epifania
 description: Illustrated brochure for an article about road trips by Epifania Magazine.
 category: brochures
 date: 2016/08/07

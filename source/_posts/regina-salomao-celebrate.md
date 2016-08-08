@@ -1,5 +1,5 @@
 title: Celebrate
-client: Regina Salomão
+tag: Regina Salomão
 description: This email marketing design is for advertising an launch party.
 category: ads
 date: 2014/2/1

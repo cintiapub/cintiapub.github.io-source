@@ -1,5 +1,5 @@
 title: Almost Dita
-client: Personal
+tag: Personal
 description: This fashion sketch is about almost Dita.
 category: illustrations
 date: 2014/3/2

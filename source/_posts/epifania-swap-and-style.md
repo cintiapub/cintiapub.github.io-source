@@ -1,5 +1,5 @@
 title: Swap & style banner
-client: Epifania
+tag: Epifania
 description: This banner was created for a women clothes swap event by Epifania Magazine.
 category: posters
 date: 2016/08/07

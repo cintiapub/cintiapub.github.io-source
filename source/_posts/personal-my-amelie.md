@@ -1,5 +1,5 @@
 title: My Amélie
-client: Personal
+tag: Personal
 description: This logo is intended to represent a fashion blog.
 category: logos
 date: 2015/12/13

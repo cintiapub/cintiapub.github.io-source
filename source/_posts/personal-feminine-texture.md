@@ -1,5 +1,5 @@
 title: Feminine texture
-client: Personal
+tag: Personal
 description: This fashion sketch is about feminine texture.
 category: illustrations
 date: 2014/3/1

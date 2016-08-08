@@ -1,5 +1,5 @@
 title: Paris Travel
-client: UC Berkeley
+tag: UC Berkeley
 description: This logo was created for a travel agency to advertise tourism in Paris.
 category: logos
 date: 2015/10/22

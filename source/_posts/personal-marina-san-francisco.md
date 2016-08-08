@@ -1,5 +1,5 @@
 title: Marina - San Francisco
-client: Personal
+tag: Personal
 description: This stamp is about Marina neighborhood in San Francisco.
 category: miscellany
 date: 2015/12/13

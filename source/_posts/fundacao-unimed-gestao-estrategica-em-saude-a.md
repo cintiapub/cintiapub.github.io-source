@@ -1,5 +1,5 @@
 title: Gestão Estratégica em Saúde (front)
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This pamphlet is meant to advertise the Strategic Healthcare Management course.
 category: brochures
 date: 2013/9/2

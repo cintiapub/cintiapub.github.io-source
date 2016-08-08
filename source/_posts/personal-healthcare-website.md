@@ -1,5 +1,5 @@
 title: Healthcare website
-client: Personal
+tag: Personal
 description: This webdesign was created for a fictitious healthcare company
 category: web design
 date: 2016/03/13

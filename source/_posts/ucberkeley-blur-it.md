@@ -1,5 +1,5 @@
 title: Blur it
-client: UC Berkeley
+tag: UC Berkeley
 description: This art is supposed to be sticked on the wall.
 category: miscellany
 date: 2015/10/22

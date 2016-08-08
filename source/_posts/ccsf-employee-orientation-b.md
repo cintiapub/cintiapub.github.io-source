@@ -1,5 +1,5 @@
 title: Employee orientation tri-fold (back)
-client: City College of San Francisco
+tag: City College of San Francisco
 description: This tri-fold is meant to give information about Employee orientation.
 category: brochures
 date: 2014/8/1

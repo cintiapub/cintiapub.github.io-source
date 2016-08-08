@@ -1,5 +1,5 @@
 title: Assessoria de Gestão (inside)
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This bi-fold is meant to give information about Management Consulting services.
 category: brochures
 date: 2013/2/1

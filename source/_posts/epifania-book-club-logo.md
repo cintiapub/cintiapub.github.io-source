@@ -1,5 +1,5 @@
 title: Book club logo
-client: Epifania
+tag: Epifania
 description: This logo represents the book club organized by Epifania Magazine.
 category: logos
 date: 2016/03/20

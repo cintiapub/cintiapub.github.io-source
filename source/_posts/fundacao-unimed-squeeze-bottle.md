@@ -1,5 +1,5 @@
 title: Squeeze bottle
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This package design is for a customized squeeze bottle.
 category: miscellany
 date: 2013/2/1

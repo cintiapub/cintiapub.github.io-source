@@ -1,5 +1,5 @@
 title: Sherlock
-client: UC Berkeley
+tag: UC Berkeley
 description: This logo is intended to represent a pet for a birthday party.
 category: logos
 date: 2015/10/22

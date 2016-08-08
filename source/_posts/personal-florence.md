@@ -1,5 +1,5 @@
 title: Florence
-client: Personal
+tag: Personal
 description: This silhouette logo is intended to represent a lady with a hat.
 category: logos
 date: 2015/12/13

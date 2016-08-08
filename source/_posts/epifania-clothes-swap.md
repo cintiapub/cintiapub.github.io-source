@@ -1,5 +1,5 @@
 title: Clothes swap banner
-client: Epifania
+tag: Epifania
 description: This banner was created for a Facebook and Eventbrite event page for a fun clothes swap by Epifania Magazine.
 category: ads
 date: 2016/05/07

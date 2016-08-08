@@ -1,5 +1,5 @@
 title: Avant Garde brochure (inside)
-client: UC Berkeley
+tag: UC Berkeley
 description: This brochure is intended to explore and demonstrate Avant Garde concepts.
 category: brochures
 date: 2015/12/12

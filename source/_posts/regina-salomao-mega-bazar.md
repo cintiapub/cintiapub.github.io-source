@@ -1,5 +1,5 @@
 title: Mega bazar
-client: Regina Salomão
+tag: Regina Salomão
 description: This email marketing design image is for a sales marketing campaign.
 category: ads
 date: 2014/3/1

@@ -1,5 +1,5 @@
 title: Esperamos você
-client: Regina Salomão
+tag: Regina Salomão
 description: This instagram image is to welcome new customers.
 category: ads
 date: 2014/3/5

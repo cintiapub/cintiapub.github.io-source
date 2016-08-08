@@ -1,5 +1,5 @@
 title: Victorian delicacy
-client: Personal
+tag: Personal
 description: This fashion sketch is about victorian delicacy.
 category: illustrations
 date: 2014/3/1

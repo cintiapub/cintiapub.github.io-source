@@ -1,5 +1,5 @@
 title: Workplace violence tri-fold (front)
-client: City College of San Francisco
+tag: City College of San Francisco
 description: This tri-fold is meant to give information about Workplace violence.
 category: brochures
 date: 2014/7/2

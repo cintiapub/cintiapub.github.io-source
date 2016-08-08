@@ -1,5 +1,5 @@
 title: Fresh twenties
-client: Personal
+tag: Personal
 description: This fashion sketch is about fresh twenties.
 category: illustrations
 date: 2014/3/1

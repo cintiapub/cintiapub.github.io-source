@@ -1,5 +1,5 @@
 title: Secretárias e Atendentes
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This pamphlet is meant to advertise Secretary and Customer service courses.
 category: brochures
 date: 2013/9/1

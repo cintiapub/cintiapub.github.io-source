@@ -1,5 +1,5 @@
 title: Feliz dia dos pais
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This banner is for a father's day campaign.
 category: ads
 date: 2013/8/1

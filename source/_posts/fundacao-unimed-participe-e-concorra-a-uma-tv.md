@@ -1,5 +1,5 @@
 title: Participe e concorra a uma TV
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This box package design is part of a marketing campaign.
 category: miscellany
 date: 2013/6/1

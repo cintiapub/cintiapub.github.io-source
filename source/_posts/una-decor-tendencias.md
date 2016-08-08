@@ -1,5 +1,5 @@
 title: Decor Tendências
-client: UNA
+tag: UNA
 description: This poster is intended to promote a trends in decoration event.
 category: posters
 date: 2013/8/1

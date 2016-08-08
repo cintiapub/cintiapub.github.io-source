@@ -1,5 +1,5 @@
 title: Dieta de páscoa
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This poster is intended to promote an Easter event.
 category: posters
 date: 2013/4/1

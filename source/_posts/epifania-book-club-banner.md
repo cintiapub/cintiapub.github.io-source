@@ -1,5 +1,5 @@
 title: Book club banner
-client: Epifania
+tag: Epifania
 description: This banner was created to invite people to join to the Book Club event, organized by Epifania Magazine.
 category: ads
 date: 2016/03/20

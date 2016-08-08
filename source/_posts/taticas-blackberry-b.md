@@ -1,5 +1,5 @@
 title: Blackberry (content)
-client: Táticas
+tag: Táticas
 description: This e-learning screen belongs to a Blackberry sales course.
 category: e-learning
 date: 2012/8/2

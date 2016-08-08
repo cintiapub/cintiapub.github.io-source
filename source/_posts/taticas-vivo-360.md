@@ -1,5 +1,5 @@
 title: Vivo 360
-client: Táticas
+tag: Táticas
 description: This e-learning screen belongs to a corporate telecom course.
 category: e-learning
 date: 2012/6/1

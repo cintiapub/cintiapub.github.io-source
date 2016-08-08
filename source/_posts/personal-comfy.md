@@ -1,5 +1,5 @@
 title: Comfy website
-client: Personal
+tag: Personal
 description: This webdesign was created for a conference app - <a href="http://cintiaromero.com/comfy" target="_blank">cintiaromero.com/comfy</a>
 category: web design
 date: 2016/05/07

@@ -227,35 +227,35 @@ section#main {
 		}
 	}
 
-	.home-posters {
+	.home-group-1 {
 		@include category-image-filter(#99FFCC);
 	}
 
-	.home-brochures {
+	.home-group-2 {
 		@include category-image-filter(#99FFFF);
 	}
 
-	.home-logos {
+	.home-group-3 {
 		@include category-image-filter(#99CCFF);
 	}
 
-	.home-ads {
+	.home-group-4 {
 		@include category-image-filter(#9999FF);
 	}
 
-	.home-web-design {
+	.home-group-5 {
 		@include category-image-filter(#FFFF99);
 	}
 
-	.home-e-learning {
+	.home-group-6 {
 		@include category-image-filter(#FFCC99);
 	}
 
-	.home-illustrations {
+	.home-group-7 {
 		@include category-image-filter(#FF9999);
 	}
 
-	.home-miscellany {
+	.home-group-8 {
 		@include category-image-filter(#FF99CC);
 	}
 }

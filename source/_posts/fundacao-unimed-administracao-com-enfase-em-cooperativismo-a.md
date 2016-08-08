@@ -1,5 +1,5 @@
 title: Administração com ênfase em Cooperativismo (outside)
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This tri-fold is meant to advertise the Administration with emphasis in Cooperative.
 category: brochures
 date: 2013/11/4

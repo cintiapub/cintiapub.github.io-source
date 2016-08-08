@@ -1,5 +1,5 @@
 title: Classy vintage
-client: Personal
+tag: Personal
 description: This fashion sketch is about classy vintage.
 category: illustrations
 date: 2014/3/2

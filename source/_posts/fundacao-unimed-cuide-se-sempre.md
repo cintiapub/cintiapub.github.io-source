@@ -1,5 +1,5 @@
 title: Cuide-se sempre
-client: Fundação Unimed
+tag: Fundação Unimed
 description: This email marketing design is for a wellness campaign.
 category: ads
 date: 2013/8/1

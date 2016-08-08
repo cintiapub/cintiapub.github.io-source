@@ -1,5 +1,5 @@
 title: Old glamour
-client: Personal
+tag: Personal
 description: This fashion sketch is about old glamour.
 category: illustrations
 date: 2014/3/1

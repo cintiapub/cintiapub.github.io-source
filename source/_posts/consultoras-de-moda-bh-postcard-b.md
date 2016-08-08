@@ -1,5 +1,5 @@
 title: Postcard (back)
-client: Consultoras de moda BH
+tag: Consultoras de moda BH
 description: This postcard is intended to promote professional consulting services for store managers.
 category: brochures
 date: 2013/10/3
