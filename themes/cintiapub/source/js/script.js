@@ -172,8 +172,7 @@
 	}
 
 	function sanitize(s) {
-		var r=s.toLowerCase();
-    r = r.replace(new RegExp("\\s", 'g'),"-");
+		var r = s.replace(new RegExp("\\s", 'g'),"-");
     r = r.replace(new RegExp("[àáâãäå]", 'g'),"a");
     r = r.replace(new RegExp("æ", 'g'),"ae");
     r = r.replace(new RegExp("ç", 'g'),"c");
