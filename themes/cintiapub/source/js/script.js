@@ -172,6 +172,10 @@
 	$(document).ready(function() {
 		startPhotoSwipe('ul.image-carousel');
 
+		if ($('#main-tabs').length > 0) {
+			$(document).foundation();
+		}
+
 		webshim.activeLang('en');
 		webshims.polyfill('forms');
 		webshims.cfg.no$Switch = true;
