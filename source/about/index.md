@@ -1,24 +1,31 @@
 title: About
 layout: about
 ---
-I am a visual designer based in San Francisco Bay Area, CA.
+I am a UX and Visual Designer for multiple devices and platforms with 7+ years of experience, based in San Francisco Bay Area.
 
-I have 7+ years experience in print and web design, social media, branding and marketing, for both B2C and B2B. I also have 2+ years experience in luxury retail, including: leading, sales growth, visual merchandising, styling, loss prevention, public relations and mood boards.
+Hiking, The Walking Dead and Speculoos cookie butter are just a few of my favorite things.
 
-My projects include campaigns, advertising, institutional communication, infographics, photo retouching and editorials, for clients in various fields such as education, technology, fashion luxury, retail, healthcare and marketing.
+I completed Certificate Programs in User Experience Design at General Assembly in San Francisco, and in Visual Design at UC Berkeley Extension. Besides, I have a Bachelor's degree in Advertising and Marketing and a MBA in Creative Direction for Fashion, both in Brazil.
 
-I studied Advertising and Marketing in Brazil and got my MBA in Creative Direction for Fashion. I've finished my Certificate Program in Graphic Design at UC Berkeley Extension and now I am interested in web design and UI / UX.
+### Who am I
+- Brazilian native that loves living in California.
+- Animal and nature lover, a vegan girl.
+- Fascinated by the creative process of design.
 
-I always get excited when I can share knowledge, inspire and connect ideas to create something unique, and ultimately make the end-user's life better.
+### How do I work 
+- Driven by curiosity.
+- Deconstructing complex problems into solid solutions.
+- Getting involved with my team thoughtfully organizing data, researching and collecting feedback.
 
-When I’m not working, I enjoy hiking through the wonderful California mountains and trails, playing with my hula hoop and, of course, hanging out with my playful dog and my lovely husband.
+### Skills
+UX/UI Design, Web Design, Graphic Design, Typography, Brand Development, Photo Editing, Video Editing, User Research, User Testing, Prototyping, Wireframing and Social Media Coordination.
 
-If you'd like to chat, feel free to contact me through the contact form below, it will be a pleasure. Let’s share ideas!
+### Software
+Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe DreamWeaver, Adobe Premiere, Adobe XD,  Adobe Spark, Sketch, Flinto, InVision, MS Office, HTML, CSS.
 
-### Skillset
+### Languages
+Portuguese, English, Spanish and French.
 
-- **Skills**: Graphic design, Web design, Illustration, Brand development, Creative Fashion, Styling and Trend hunting.
-- **Softwares**:  Photoshop, InDesign, Illustrator, HTML, CSS, Bootstrap, Foundation, CorelDraw, Fireworks, DreamWeaver and Office Suite.
-- **Languages**: English, Portuguese, Spanish and French.
+I'm always excited to share, inspire and connect ideas to create something unique, and to ultimately make the end-user's life better. Be welcome to contact me. Let's share some ideas!
 
 **[See more on LinkedIn](https://www.linkedin.com/in/cintiaromero)**.
