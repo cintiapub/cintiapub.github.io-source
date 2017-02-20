@@ -10,11 +10,17 @@ body {
 
 header#header {
 	nav.top-bar {
-		height: rem-calc(100);
+		height: rem-calc(72);
+
+		#logo {
+			img {
+				height: 50px;
+			}
+		}
 
 		.top-bar-section {
 			position: relative;
-			top: 50%;
+			top: 38%;
 
 			ul li > a {
 				font-size: 1rem;
@@ -37,6 +43,11 @@ header#header {
 				font-family: 'Poiret One', cursive;
 				font-size: 3rem;
 				line-height: 1rem;
+
+				a {
+					font-size: 32px;
+					padding: 0 5px;
+				}
 			}
 		}
 
