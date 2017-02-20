@@ -36,7 +36,7 @@ header#header {
 			top: 54%;
 
 			#logo-wrap {
-				@media screen and (max-width: 625px) {
+				@media #{$screen} and (max-width: 625px) {
 					display: none;
 				}
 
@@ -62,7 +62,7 @@ header#header {
 			left: 6rem; // adjust distance from left here
 			min-width: 14rem; // adjust width here
 
-			@media only screen and (max-width: 40em) {
+			@media #{$screen} and (max-width: 40em) {
 				min-width: 10rem;
 				top: 0.5rem;
 
@@ -86,12 +86,20 @@ footer#footer {
 
 	.logo-footer {
 		font-family: 'Poiret One', cursive;
-	    font-weight: bold;
+	  font-weight: bold;
 	}
 
-	.social.inline-list > li {
-		&:first-of-type {
-			margin-left: 0;
+	.social.inline-list {
+		@media #{$medium-up} {
+			float: right;
+		}
+
+		> li {
+	    margin-left: 15px;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
 		}
 	}
 
@@ -101,61 +109,9 @@ footer#footer {
 		margin: 1rem 0 1rem 0;
 	}
 
-	.footer-form {
-		textarea, input {
-			border-radius: 3px;
-			background-color: $iron;
-			box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-			border: none;
-			resize: none;
-			font: inherit;
-			font-size: 0.875rem;
-			font-weight: normal;
-			color: $oil;
-			padding: 8px 16px;
-
-			&::-webkit-input-placeholder {
-			   color: $graffity;
-			}
-
-			&:-moz-placeholder { /* Firefox 18- */
-			   color: $graffity;
-			}
-
-			&::-moz-placeholder {  /* Firefox 19+ */
-			   color: $graffity;
-			}
-
-			&:-ms-input-placeholder {
-			   color: $graffity;
-			}
-		}
-
-		label {
-			font-size: 1.2rem;
-			margin: 0 0 1rem 0;
-			font-weight: bold;
-		}
-
-		.submit {
-			border-radius: 3px;
-			background-color: $graffity;
-			color: #ffffff;
-			border: 0;
-			padding: 1rem 3.5rem;
-			font-weight: bold;
-			float: right;
-			margin: 0 1rem 0 0;
-
-			&:hover {
-				background-color: darken($graffity, 20%);
-			}
-		}
-	}
-
 	ul.footer-links {
 		list-style-type: none;
-    	margin-left: 0;
+    margin-left: 0;
 
 		> li {
 			display: inline;
@@ -268,5 +224,55 @@ section#main {
 
 	.home-group-8 {
 		@include category-image-filter(#FF99CC);
+	}
+
+	.contact-form {
+		textarea, input {
+			border-radius: 3px;
+			background-color: $smoke;
+			box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+			border: none;
+			resize: none;
+			font: inherit;
+			font-size: 0.875rem;
+			font-weight: normal;
+			color: $oil;
+			padding: 8px 16px;
+
+			&::-webkit-input-placeholder {
+			   color: $base;
+			}
+
+			&:-moz-placeholder { /* Firefox 18- */
+			   color: $base;
+			}
+
+			&::-moz-placeholder {  /* Firefox 19+ */
+			   color: $base;
+			}
+
+			&:-ms-input-placeholder {
+			   color: $base;
+			}
+		}
+
+		label {
+			font-weight: bold;
+		}
+
+		.submit {
+			border-radius: 3px;
+			background-color: $graffity;
+			color: #ffffff;
+			border: 0;
+			padding: 1rem 3.5rem;
+			font-weight: bold;
+			float: right;
+			margin: 0 1rem 0 0;
+
+			&:hover {
+				background-color: darken($graffity, 20%);
+			}
+		}
 	}
 }

@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="large-8 large-centered medium-8 medium-centered columns">
+      <%- page.content %>
+		  <form class="contact-form" action="https://formspree.io/cintiapub+contact@gmail.com" method="POST">
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="me@domain.com" required />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-12 columns">
+            <label>
+            <label for="email">Message</label>
+              <textarea rows="15" name="message" placeholder="I would love to know more about..." required></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-12 columns">
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_subject" value="Message received from cintiaromero.com" />
+              <input type="hidden" name="_next" value="http://cintiaromero.com/contact/email-received.html" />
+              <button class="submit" type="submit" value="Submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+	</div>
+</div>

@@ -1,7 +1,9 @@
 <footer id="footer">
   <div class="row">
-    <div class="small-12 medium-7 columns">
+    <div class="small-12 columns">
       <h3 class="logo-footer">Cintia Romero</h3>
+    </div>
+    <div class="small-12 medium-7 large-8 columns">
       <ul class="footer-links">
         <li><a href="/categories/posters">Posters</a></li>
         <li><a href="/categories/brochures">Brochures</a></li>
@@ -12,41 +14,16 @@
         <li><a href="/categories/illustrations">Illustrations</a></li>
         <li><a href="/categories/miscellany">Miscellany</a></li>
       </ul>
+      <p class="copywrite hide-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
+    </div>
+    <div class="small-12 medium-5 large-4 columns">
       <ul class="inline-list social">
         <li><a href="https://www.pinterest.com/cintiaromero313" target="_blank"><i class="fa fa-3x fa-pinterest-square"></i></a></li>
         <li><a href="http://instagram.com/cintiaaaromero" target="_blank"><i class="fa fa-3x fa-instagram"></i></a></li>
         <li><a href="http://twitter.com/cintiaaa_romero" target="_blank"><i class="fa fa-3x fa-twitter-square"></i></a></li>
         <li><a href="https://www.linkedin.com/in/cintiaromero" target="_blank"><i class="fa fa-3x fa-linkedin-square"></i></a></li>
       </ul>
-      <p class="copywrite hide-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
-    </div>
-    <div class="small-12 medium-5 columns">
-      <form class="footer-form" action="https://formspree.io/cintiapub+contact@gmail.com" method="POST">
-        <div class="row">
-          <div class="medium-12 columns">
-            <label>
-              <label for="email" class="contact">Contact Me</label>
-              <input type="email" name="email" placeholder="Email Address" required />
-            </label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="medium-12 columns">
-            <label>
-              <textarea rows="5" name="message" placeholder="Message" required></textarea>
-            </label>
-          </div>
-          <div class="row">
-            <div class="medium-12 columns">
-              <input type="text" name="_gotcha" style="display:none" />
-              <input type="hidden" name="_subject" value="Message received from cintiaromero.com" />
-              <input type="hidden" name="_next" value="http://cintiaromero.com/about/email-received.html" />
-              <button class="submit" type="submit" value="Submit">Send</button>
-            </div>
-          </div>
-        </div>
-      </form>
       <p class="copywrite show-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>
     </div>
