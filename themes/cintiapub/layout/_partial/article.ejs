@@ -1,8 +1,4 @@
-<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-    <%- partial('post/category') %>
-  </div>
+<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">  
   <div class="article-inner">
     <% if (post.link || post.title){ %>
       <header class="article-header">
@@ -18,27 +14,32 @@
           </p>
         <% } %>
       <% } else { %>
-        <%- post.content %>
+        <h3>Info</h3>
+        <ul>
+          <li>Date: <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, 'YYYY/M/D') %></time></li>
+          <% if (post.categories.length > 0) { %>
+            <li>Category: <a href="<%- url_for(post.categories.data[0].path) %>"><%- titlecase(post.categories.data[0].name) %></a></li>
+          <% } %>
+          <li>Type: <%- post.type %></li>
+          <% if (post.tags.length > 0) { %>
+            <li>Client: <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
+          <% } %>
+        </ul>
+        <h3>Description</h3>
+        <p><%- post.description %></p>
+        <%- partial('post/software') %>
+        <%- post.content %>        
         <%- partial('post/gallery') %>
+        <h3>More items</h3>
+        <ul>
+          <% if (post.categories.length > 0) { %>
+            <li>See more <a href="<%- url_for(post.categories.data[0].path) %>"><%- titlecase(post.categories.data[0].name) %></a></li>
+          <% } %>
+          <% if (post.tags.length > 0) { %>
+            <li>See more from <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
+          <% } %>
+        </ul>
       <% } %>
     </div>
-    <footer class="article-footer">
-      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link">Share</a>
-      <% if (post.comments && config.disqus_shortname){ %>
-        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
-      <% } %>
-      <%- partial('post/tag') %>
-    </footer>
   </div>
-  <% if (!index){ %>
-    <%- partial('post/nav') %>
-  <% } %>
 </article>
-
-<% if (!index && post.comments && config.disqus_shortname){ %>
-<section id="comments">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
-<% } %>

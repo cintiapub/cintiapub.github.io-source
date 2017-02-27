@@ -32,7 +32,7 @@
 
 		e.preventDefault();
 
-		openPhotoSwipe($el.index('.image-link'), $el.closest('ul.image-grid')[0], true);
+		openPhotoSwipe($el.index('.image-link'), $el.closest('.image-grid')[0], true);
 	}
 
 	function openPhotoSwipe(index, galleryElement, disableAnimation, fromURL) {
@@ -187,7 +187,7 @@
 	}
 
 	$(document).ready(function() {
-		startPhotoSwipe('ul.image-carousel');
+		startPhotoSwipe('.image-carousel');
 
 		if ($('#main-tabs').length > 0) {
 			$(document).foundation();

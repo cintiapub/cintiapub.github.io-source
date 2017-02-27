@@ -160,7 +160,7 @@ section#main {
 			overflow: hidden;
 			margin-bottom: 20px;
 
-			a.image-link {
+			a {
 				line-height: 200px;
 				display: inline-block;
 				overflow: hidden;
@@ -274,5 +274,9 @@ section#main {
 				background-color: darken($graffity, 20%);
 			}
 		}
+	}
+
+	.article-gallery {
+		margin-bottom: 2em;
 	}
 }

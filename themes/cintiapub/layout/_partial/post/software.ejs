@@ -1,0 +1,9 @@
+<% if (post.software && post.software.length){ %>
+  <h3>Softwares</h3>
+  <ul>
+    <% if (post.software instanceof Array === false) { post.software = post.software.split('\n') } %>
+    <% post.software.forEach(function(software, i){ %>
+      <li><%- software %></li>  
+    <% }) %>
+  </ul>
+<% } %>

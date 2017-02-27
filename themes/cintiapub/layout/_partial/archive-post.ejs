@@ -1,4 +1,5 @@
-<a class="image-link" href="<%- url_for(post.image) %>_h.jpg" title="<%= post.title %>" data-client="<%= post.tags.data[0].name %>" data-description="<%= post.description %>" data-software="<%= post.software %>" data-type="<%= post.type %>">
-	<img src="<%- url_for(post.image) %>_n.jpg" itemprop="image">
+<a href="<%- url_for(post.path) %>" title="<%= post.title %>" data-client="<%= post.tags.data[0].name %>" data-description="<%= post.description %>" data-software="<%= post.software %>" data-type="<%= post.type %>">
+	<% if (post.image instanceof Array === false) { post.image = post.image.split('\n') } %>
+	<img src="<%- url_for(post.image[0]) %>_n.jpg" itemprop="image">
 	<figure><%= post.type %> for <%= post.tags.data[0].name %> - <%= post.title %></figure>
 </a>
