@@ -87,6 +87,15 @@ footer#footer {
 	.logo-footer {
 		font-family: 'Poiret One', cursive;
 	  font-weight: bold;
+
+	  a {
+			color: $graffity;
+
+			&:hover {
+				text-decoration: underline;
+				color: $blue-link;
+			}
+		}
 	}
 
 	.social.inline-list {

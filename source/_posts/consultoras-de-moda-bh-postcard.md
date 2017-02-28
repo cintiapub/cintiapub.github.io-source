@@ -2,6 +2,7 @@ title: Postcard
 tag: Consultoras de moda BH
 description: This postcard is intended to promote professional consulting services for store managers.
 category: brochures
+field: graphic design
 date: 2013/10/3
 image:
 - https://farm1.staticflickr.com/678/21243208588_f13e2e5cfa

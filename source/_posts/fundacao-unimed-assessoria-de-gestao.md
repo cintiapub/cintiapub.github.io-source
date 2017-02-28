@@ -1,7 +1,8 @@
-title: Assessoria de Gestão 
+title: Assessoria de Gestão
 tag: Fundação Unimed
 description: This bi-fold is meant to give information about Management Consulting services.
 category: brochures
+field: graphic design
 date: 2013/2/1
 image:
 - https://farm6.staticflickr.com/5775/20809948903_280074704d

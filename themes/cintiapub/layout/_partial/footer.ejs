@@ -1,18 +1,14 @@
 <footer id="footer">
   <div class="row">
     <div class="small-12 columns">
-      <h3 class="logo-footer">Cintia Romero</h3>
+      <h3 class="logo-footer"><a href="<%- url_for() %>">Cintia Romero</a></h3>
     </div>
     <div class="small-12 medium-7 large-8 columns">
       <ul class="footer-links">
-        <li><a href="/categories/posters">Posters</a></li>
-        <li><a href="/categories/brochures">Brochures</a></li>
-        <li><a href="/categories/logos">Logos</a></li>
-        <li><a href="/categories/web-design">Web design</a></li>
-        <li><a href="/categories/ads">Ads & banners</a></li>
-        <li><a href="/categories/e-learning">E-learning</a></li>
+        <li><a href="/graphic-design">Graphic design</a></li>
+        <li><a href="/web-design">Web design</a></li>
+        <li><a href="/categories/ux">UX design</a></li>
         <li><a href="/categories/illustrations">Illustrations</a></li>
-        <li><a href="/categories/miscellany">Miscellany</a></li>
       </ul>
       <p class="copywrite hide-for-small-only">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>.<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>.</p>

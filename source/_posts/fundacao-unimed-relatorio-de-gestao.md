@@ -2,6 +2,7 @@ title: Relatório de Gestão
 tag: Fundação Unimed
 description: This management report booklet presents some company information from 2009 to 2012.
 category: brochures
+field: graphic design
 date: 2013/3/1
 image:
 - https://farm6.staticflickr.com/5757/21242952390_6f6443d9b3
