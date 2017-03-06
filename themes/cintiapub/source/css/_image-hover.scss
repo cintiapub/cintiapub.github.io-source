@@ -154,7 +154,11 @@ $global-radius: 4px;
         position: absolute;
         width: 100%;
       }
-    }
+
+      @media #{$small-and-medium} {
+        font-size: 1rem;
+      }
+    }    
 
 
   }

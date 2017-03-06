@@ -2,18 +2,22 @@
 @import 'foundation/functions';
 
 $blue-link   	: #008CBA;
-$graphic-design	: rgba(#99FFCC, 0.6);
-$web-design		: rgba(#99CCFF, 0.6);
-$ux-design		: rgba(#FF99CC, 0.6);
-$illustrations	: rgba(#FFFF99, 0.6);
-$default		: #EEC4F3;
+$box			: #EEC4F3;
+$color-1		: rgba(#99FFCC, 0.6);
+$color-2		: rgba(#99FFFF, 0.6);
+$color-3		: rgba(#99CCFF, 0.6);
+$color-4		: rgba(#9999FF, 0.6);
+$color-5		: rgba(#FFFF99, 0.6);
+$color-6		: rgba(#FFCC99, 0.6);
+$color-7		: rgba(#FF9999, 0.6);
+$color-8		: rgba(#FF99CC, 0.6);
 
 body {
 	//background-image: url('/img/subtle_dots.png');	
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .breadcrumbs {
+h1, h2, h3, h4, h5, h6, .breadcrumbs, .collage {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -171,6 +175,10 @@ section#main {
 	  }
     }
 
+	.collage > .row {
+      max-width: none;
+	}
+
 	.image-wrapper {
 		text-align: center;
 	}
@@ -200,23 +208,23 @@ section#main {
 		font-weight: 100;
 
 		&.graphic-design {
-			border-color: $graphic-design;
+			border-color: $color-1;
 		}
 
 		&.web-design {
-			border-color: $web-design;
+			border-color: $color-3;
 		}
 
 		&.ux-design {
-			border-color: $ux-design;
+			border-color: $color-8;
 		}
 
 		&.illustrations {
-			border-color: $illustrations;
+			border-color: $color-5;
 		}
 
 		&.default {
-			border-color: $default;
+			border-color: $box;
 		}
 	}
 
@@ -264,19 +272,19 @@ section#main {
 
 		.image-grid-container {
 			&.graphic-design {
-				background-color: $graphic-design;
+				background-color: $color-1	;
 			}
 
 			&.web-design {
-				background-color: $web-design;
+				background-color: $color-3;
 			}
 
 			&.ux-design {
-				background-color: $ux-design;
+				background-color: $color-8;
 			}
 
 			&.illustrations {
-				background-color: $illustrations;
+				background-color: $color-5;
 			}
 
 			ul.image-grid {
@@ -337,22 +345,22 @@ section#main {
 
 					&.home-graphic-design {
 						margin-top: 4rem;
-						@include category-image-filter($graphic-design);
+						@include category-image-filter($color-1	);
 					}
 
 					&.home-web-design {
 						margin-bottom: 4rem;
-						@include category-image-filter($web-design);
+						@include category-image-filter($color-3);
 					}
 
 					&.home-ux-design {
 						margin-top: 4rem;
-						@include category-image-filter($ux-design);
+						@include category-image-filter($color-8);
 					}
 
 					&.home-illustrations {
 						margin-bottom: 4rem;
-						@include category-image-filter($illustrations);
+						@include category-image-filter($color-5);
 					}
 
 					a {
@@ -421,9 +429,75 @@ section#main {
 			}
 
 			@media #{$small-and-medium} {
-				margin-bottom: 2rem;
+				&:not(.last-item){
+					margin-bottom: 2rem;
+				}
 			}	
 		}
+	}
+
+	.collage {
+		margin-top: 4rem;
+		text-align: center;
+
+		$line: 24px;
+		.columns {
+			position: relative;
+
+			&.collage-1 {
+				background-color: $color-3;
+				height: $line * 3;
+			}
+
+			&.collage-2 {
+				background-color: $color-5;
+				height: $line * 9;
+				font-size: 1.5rem;
+			}
+
+			&.collage-3 {
+				background-color: $color-1;
+				height: $line * 6;
+				font-size: 2rem;
+			}
+
+			&.collage-4 {
+				background-color: $color-8;
+				height: $line * 6;
+			}
+
+			&.collage-5 {
+				background-color: $color-2;
+				height: $line * 3;
+				font-size: 1.5rem;
+			}
+
+			&.collage-6 {
+				background-color: $color-4;
+				height: $line * 3;
+				font-size: 1.5rem;
+			}
+
+		}
+
+		.center {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: 100%;
+    		padding: 1rem;
+		}
+
+		@media #{$small-only} {
+			.columns {
+				&.collage-1, &.collage-2, &.collage-3, &.collage-4, &.collage-5, &.collage-6 {
+					height: $line * 3;
+					font-size: 1.25rem;
+				}
+			}
+		}
+
 	}
 
 	p.avatar {
