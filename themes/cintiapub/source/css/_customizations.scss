@@ -215,7 +215,7 @@ section#main {
 			border-color: $color-3;
 		}
 
-		&.ux-design {
+		&.ux {
 			border-color: $color-8;
 		}
 
@@ -245,6 +245,9 @@ section#main {
 
 			.item-content {
 				display: inline-block;
+			}
+
+			:not(.description) .item-content {
 				h3 {
 					margin-bottom: 0.25rem;
 				}
@@ -272,14 +275,14 @@ section#main {
 
 		.image-grid-container {
 			&.graphic-design {
-				background-color: $color-1	;
+				background-color: $color-1;
 			}
 
 			&.web-design {
 				background-color: $color-3;
 			}
 
-			&.ux-design {
+			&.ux {
 				background-color: $color-8;
 			}
 
@@ -290,7 +293,17 @@ section#main {
 			ul.image-grid {
 				max-width: 1000px;
 				margin: 0 auto;
+
+				li a {
+					width: 100%;
+					border: 0;
+				}
 			}
+		}
+
+		iframe {
+			margin: 0 auto;
+			display: block;
 		}
 	}
 
@@ -329,6 +342,10 @@ section#main {
 					&::before {
 						opacity: 1;
 					}
+				}
+
+				img {
+					width: 100%;
 				}
 			}
 		}

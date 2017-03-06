@@ -1,6 +1,6 @@
 title: Cintialand website
 tag: Personal
-description: This webdesign was created for a personal blog - <a href="http://cintialand.com" target="_blank">cintialand.com</a>
+description: This webdesign was created for a personal blog.
 category: websites
 field: web design
 date: 2016/03/20
@@ -10,3 +10,6 @@ software:
 - HTML
 - CSS
 ---
+<br/>
+### Related work
+- Check out <a href="http://cintialand.com" target="_blank">cintialand.com</a>.

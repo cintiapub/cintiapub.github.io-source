@@ -1,6 +1,6 @@
 title: Healthcare website
 tag: Personal
-description: This webdesign was created for a fictitious healthcare company
+description: This webdesign was created for a fictitious healthcare company.
 category: websites
 field: web design
 date: 2016/03/13

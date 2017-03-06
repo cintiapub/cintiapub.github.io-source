@@ -5,7 +5,7 @@
     <% post.image.forEach(function(photo, i){ %>
       <li>
         <a class="image-link" href="<%- url_for(photo) %>_h.jpg" title="<%= post.title %>" data-client="<%= post.tags.data[0].name %>" data-description="<%= post.description %>" data-software="<%= post.software %>" data-type="<%= post.type %>">
-          <img src="<%- url_for(photo) %>_n.jpg" itemprop="image">          
+          <img src="<%- url_for(photo) %>_c.jpg" itemprop="image">          
         </a>   
       </li>
     <% }) %>

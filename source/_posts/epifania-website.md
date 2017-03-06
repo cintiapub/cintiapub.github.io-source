@@ -1,6 +1,6 @@
 title: Epifania website
 tag: Epifania
-description: This webdesign was created for Epifania magazine - <a href="http://epifanialyl.com" target="_blank">epifanialyl.com</a>
+description: This webdesign was created for Epifania magazine.
 category: websites
 field: web design
 date: 2016/03/13
@@ -10,3 +10,5 @@ software:
 - HTML
 - CSS
 ---
+### Related work
+- Check out - <a href="http://epifanialyl.com" target="_blank">epifanialyl.com</a>. 
