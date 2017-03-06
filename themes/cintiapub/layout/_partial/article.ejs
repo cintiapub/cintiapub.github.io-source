@@ -1,55 +1,47 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">  
   <div class="article-inner">
-    <% if (post.link || post.title){ %>
-      <header class="article-header">
-        <%- partial('post/title', {class_name: 'article-title'}) %>
-      </header>
-    <% } %>
-    <div class="article-entry" itemprop="articleBody">
-      <% if (post.excerpt && index){ %>
-        <%- post.excerpt %>
-        <% if (theme.excerpt_link){ %>
-          <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
-          </p>
+    <div class="row">
+      <div class="large-12 columns">
+        <% if (post.link || post.title){ %>
+          <header class="article-header">
+            <%- partial('post/title', {class_name: 'article-title'}) %>
+          </header>
         <% } %>
-      <% } else { %>
-        <h3>Info</h3>
-        <ul>
-          <li>Date: <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, 'YYYY/M/D') %></time></li>
-          <% if (post.categories.length > 0) { %>
-            <li>Category: 
-              <% var field = post.field; 
-                 var category = post.categories.data[0]; 
-
-                 if (field !== category.name) { %>
-                    <a href="<%- url_for(field.replace(' ', '-')) %>"><%- titlecase(field) %></a> <i class="fa fa-angle-double-right" aria-hidden="true"></i> 
+        <div class="article-entry" itemprop="articleBody">
+          <% if (post.excerpt && index){ %>
+            <%- post.excerpt %>
+            <% if (theme.excerpt_link){ %>
+              <p class="article-more-link">
+                <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+              </p>
+            <% } %>
+          <% } else { %>
+            <div class="row item">
+              <div class="columns medium-6 small-12">
+                <%- partial('post/info') %>
+              </div>
+              <% if (post.software && post.software.length) { %>
+                <div class="columns medium-6 small-12 software">
+                  <%- partial('post/software') %>
+                </div>
               <% } %>
-              <a href="<%- url_for(category.path) %>"><%- titlecase(category.name) %></a>
-            </li>
-          <% } %>
-          <li>Type: <%- post.type %></li>
-          <% if (post.tags.length > 0) { %>
-            <li>Client: <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
-          <% } %>
-        </ul>
-        <h3>Description</h3>
-        <p><%- post.description %></p>
-        <%- partial('post/software') %>
-        <%- post.content %>        
+            </div>
+            <div class="row item">
+              <div class="columns medium-12 description">
+                <%- partial('post/description') %>            
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+      <% if (post.image && post.image.length){ %>
         <%- partial('post/gallery') %>
-        <h3>More items</h3>
-        <ul>
-          <% if (post.categories.length > 0) { %>
-            <li>See more <a href="<%- url_for(category.path) %>"><%- titlecase(category.name) %></a></li>
-          <% } %>
-          <% if (field !== category.name) { %>
-            <li>See more <a href="<%- url_for(field.replace(' ', '-')) %>"><%- titlecase(field) %></a></li>
-          <% } %>
-          <% if (post.tags.length > 0) { %>
-            <li>See more from <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
-          <% } %>
-        </ul>
+      <% } %>
+      <div class="row item">
+        <div class="large-12 columns">
+          <%- partial('post/more-items') %>
+        </div>
+      </div>          
       <% } %>
     </div>
   </div>

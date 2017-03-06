@@ -1,0 +1,11 @@
+<i class="item-icon fa fa-info-circle fa-2x" aria-hidden="true"></i>
+<div class="item-content">
+    <h3>Info</h3>
+    <ul>
+        <li>Date: <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, 'YYYY/M/D') %></time></li>
+        <li>Type: <%- post.type %></li>
+        <% if (post.tags.length > 0) { %>
+        <li>Client: <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
+        <% } %>
+    </ul>
+</div>

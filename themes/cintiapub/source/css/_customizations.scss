@@ -1,10 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto|Poiret+One);
 @import 'foundation/functions';
 
 $blue-link   : #008CBA;
+$graphic-design:  rgba(#99FFCC, 0.6);
+$web-design:  rgba(#99CCFF, 0.6);
+$ux-design:  rgba(#FF99CC, 0.6);
+$illustrations:  rgba(#FFFF99, 0.6);
 
 body {
-	background-image: url('/img/subtle_dots.png');
+	//background-image: url('/img/subtle_dots.png');	
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .breadcrumbs {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -120,7 +128,7 @@ footer#footer {
 
 	ul.footer-links {
 		list-style-type: none;
-    margin-left: 0;
+    	margin-left: 0;
 
 		> li {
 			display: inline;
@@ -150,11 +158,112 @@ footer#footer {
 }
 
 section#main {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+	&.post > .row {
+      max-width: none;
+
+	  .article-inner > .row {
+		max-width: rem-calc(1000);
+		margin: 0 auto;
+	  }
+    }
 
 	.image-wrapper {
 		text-align: center;
+	}
+
+	.article-inner {
+
+		header.article-header {
+
+			div.breadcrumbs {
+				padding-left: 0.5rem;
+				border-left: 6px solid;
+				line-height: 1;
+				font-weight: 100;
+
+				&.graphic-design {
+					border-color: $graphic-design;
+				}
+
+				&.web-design {
+					border-color: $web-design;
+				}
+
+				&.ux-design {
+					border-color: $ux-design;
+				}
+
+				&.illustrations {
+					border-color: $illustrations;
+				}
+			}
+
+			h1.article-title {
+				margin-top: 0;
+			}
+		}
+
+		.item {
+			margin-top: 3rem;
+
+			.item-icon {
+				vertical-align: top;
+				line-height: 1.4;
+				margin-right: 0.5rem;
+			}
+
+			.item-content {
+				display: inline-block;
+				h3 {
+					margin-bottom: 0.25rem;
+				}
+				ul {
+					list-style-type: none;
+					margin-left: 0;
+					margin-bottom: 0;
+					li {
+						line-height: 20px;
+					}
+				}			
+			}			
+
+			@media #{$small-only} {
+				.software {
+					margin-top: 3rem;
+				}				
+			}	
+
+			.description .item-content {
+				width: 85%;
+			}
+					
+		}
+
+		.image-grid-container {
+			&.graphic-design {
+				background-color: $graphic-design;
+			}
+
+			&.web-design {
+				background-color: $web-design;
+			}
+
+			&.ux-design {
+				background-color: $ux-design;
+			}
+
+			&.illustrations {
+				background-color: $illustrations;
+			}
+
+			ul.image-grid {
+				max-width: 1000px;
+				margin: 0 auto;
+			}
+		}
 	}
 
 	h2.title {
@@ -167,7 +276,8 @@ section#main {
 		li {
 			height: 200px;
 			overflow: hidden;
-			margin-bottom: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
 
 			a {
 				line-height: 200px;

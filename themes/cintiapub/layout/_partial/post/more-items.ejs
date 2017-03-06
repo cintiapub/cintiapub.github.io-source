@@ -1,0 +1,17 @@
+<i class="item-icon fa fa-hand-o-right fa-2x" aria-hidden="true"></i>
+<div class="item-content">
+    <h3>More items</h3>
+    <ul>
+        <% var field = post.field; 
+        var category = post.categories.data[0]; %>
+        <% if (post.categories.length > 0) { %>
+        <li>See more <a href="<%- url_for(category.path) %>"><%- titlecase(category.name) %></a></li>
+        <% } %>
+        <% if (field !== category.name) { %>
+        <li>See more <a href="<%- url_for(field.replace(' ', '-')) %>"><%- titlecase(field) %></a></li>
+        <% } %>
+        <% if (post.tags.length > 0) { %>
+        <li>See more from <a href="<%- url_for(post.tags.data[0].path) %>"><%- post.tags.data[0].name %></a></li>
+        <% } %>
+    </ul>
+</div>

@@ -1,5 +1,5 @@
-<% if (post.image && post.image.length){ %>
-  <h3>Images</h3>
+<% var field = post.field; %> 
+<div class="image-grid-container <%- field.replace(' ', '-') %> item">
   <ul class="image-grid image-carousel article-gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4 text-center" data-clearing>
     <% if (post.image instanceof Array === false) { post.image = post.image.split('\n') } %>
     <% post.image.forEach(function(photo, i){ %>
@@ -10,4 +10,4 @@
       </li>
     <% }) %>
   </ul>
-<% } %>
+</div>
