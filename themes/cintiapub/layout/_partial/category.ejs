@@ -1,11 +1,12 @@
 <section class="archives-wrap">
-  <h2 class="title">
-    <% var field = page.posts.data[0].field; %>
-    <% if (field !== page.category) { %>
-      <a href="<%- url_for(field.replace(' ', '-')) %>"><%- field %></a> <i class="fa fa-angle-double-right" aria-hidden="true"></i> 
-    <% } %>
-    <%- page.category %>
-  </h2>
+
+  <% var field = page.posts.data[0].field; %>
+  <% if (field !== page.category) { %>
+    <div class="breadcrumbs <%- field.replace(' ', '-') %>">
+      <a href="<%- url_for(field.replace(' ', '-')) %>"><%- titlecase(field) %></a>
+    </div>
+  <% } %>
+  <h1 class="breadcrumbed-title" itemprop="name"><%- titlecase(page.category) %></h1>
   <div class="row">
     <div class="large-12 columns">
       <ul class="image-grid image-carousel small-block-grid-2 medium-block-grid-3 large-block-grid-4 text-center" data-clearing>

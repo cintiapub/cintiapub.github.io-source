@@ -18,7 +18,7 @@
         <a href="<%- url_for(category.path) %>"><%- titlecase(category.name) %></a>
       </div>
     <% } %>
-    <h1 class="<%= class_name %>" itemprop="name">
+    <h1 class="<%= class_name %> breadcrumbed-title" itemprop="name">
       <%= post.title %>
     </h1>
   <% } %>
