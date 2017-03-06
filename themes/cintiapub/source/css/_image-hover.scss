@@ -155,6 +155,13 @@ $global-radius: 4px;
         width: 100%;
       }
 
+      &.middle {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
       @media #{$small-and-medium} {
         font-size: 1rem;
       }

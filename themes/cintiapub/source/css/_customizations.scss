@@ -375,7 +375,7 @@ section#main {
 	}
 
 	.designing {
-		margin-top: 3rem;
+		margin-top: 7rem;
 
 		@media #{$large-up} {
 			.row {
@@ -437,7 +437,7 @@ section#main {
 	}
 
 	.collage {
-		margin-top: 4rem;
+		margin-top: 8rem;
 		text-align: center;
 
 		$line: 24px;
@@ -507,37 +507,13 @@ section#main {
 		}
 	}
 
-	.home-group-1 {
-		@include category-image-filter(#99FFCC);
+	.subcat-graphic-design {
+		@include category-image-filter($color-1);
 	}
 
-	.home-group-2 {
+	.subcat-web-design {
 		@include category-image-filter(#99FFFF);
-	}
-
-	.home-group-3 {
-		@include category-image-filter(#99CCFF);
-	}
-
-	.home-group-4 {
-		@include category-image-filter(#9999FF);
-	}
-
-	.home-group-5 {
-		@include category-image-filter(#FFFF99);
-	}
-
-	.home-group-6 {
-		@include category-image-filter(#FFCC99);
-	}
-
-	.home-group-7 {
-		@include category-image-filter(#FF9999);
-	}
-
-	.home-group-8 {
-		@include category-image-filter(#FF99CC);
-	}
+	}	
 
 	.contact-form {
 		textarea, input {
