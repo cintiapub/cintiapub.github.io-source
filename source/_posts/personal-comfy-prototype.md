@@ -34,6 +34,11 @@ software:
 - **UP TO DATE**: Alerts and notifications on time. You won't miss a talk or event. Just check your inbox.
 - Use the QR Code provided in your badge to add talks, people and interact during the event. 
 
+<div class="hide-for-small-only">
+    <h3>Persona</h3>
+    <img src="https://farm4.staticflickr.com/3695/32465487433_94bd4ac708_h.jpg" />
+</div>
+
 <br/>
 ### The User Research
 ##### A) "OUTDATED AND MESSY INFO."
