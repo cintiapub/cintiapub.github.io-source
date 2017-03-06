@@ -1,11 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto|Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:400,700|Poiret+One);
 @import 'foundation/functions';
 
-$blue-link   : #008CBA;
-$graphic-design:  rgba(#99FFCC, 0.6);
-$web-design:  rgba(#99CCFF, 0.6);
-$ux-design:  rgba(#FF99CC, 0.6);
-$illustrations:  rgba(#FFFF99, 0.6);
+$blue-link   	: #008CBA;
+$graphic-design	: rgba(#99FFCC, 0.6);
+$web-design		: rgba(#99CCFF, 0.6);
+$ux-design		: rgba(#FF99CC, 0.6);
+$illustrations	: rgba(#FFFF99, 0.6);
+$default		: #EEC4F3;
 
 body {
 	//background-image: url('/img/subtle_dots.png');	
@@ -174,6 +175,24 @@ section#main {
 		text-align: center;
 	}
 
+	div.breadcrumbs.box {
+		display: inline-block;
+		padding-left: 1rem;
+
+		h3 {
+			margin-bottom: 0.25rem;
+			margin-top: 0;
+		}
+		ul {
+			list-style-type: none;
+			margin-left: 0;
+			margin-bottom: 0;
+			li {
+				line-height: 20px;
+			}
+		}			
+	}
+
 	div.breadcrumbs {
 		padding-left: 0.5rem;
 		border-left: 6px solid;
@@ -194,6 +213,10 @@ section#main {
 
 		&.illustrations {
 			border-color: $illustrations;
+		}
+
+		&.default {
+			border-color: $default;
 		}
 	}
 
@@ -300,6 +323,106 @@ section#main {
 					}
 				}
 			}
+		}
+	}
+
+	.fields {
+		margin-top: 4rem;
+
+		ul.image-grid {
+			li {
+				height: initial;
+
+				.category-image {
+
+					&.home-graphic-design {
+						margin-top: 4rem;
+						@include category-image-filter($graphic-design);
+					}
+
+					&.home-web-design {
+						margin-bottom: 4rem;
+						@include category-image-filter($web-design);
+					}
+
+					&.home-ux-design {
+						margin-top: 4rem;
+						@include category-image-filter($ux-design);
+					}
+
+					&.home-illustrations {
+						margin-bottom: 4rem;
+						@include category-image-filter($illustrations);
+					}
+
+					a {
+						line-height: 300px;
+						height: 300px;
+						border: 0;
+					}
+				}
+			}
+		}
+
+	}
+
+	.designing {
+		margin-top: 3rem;
+
+		@media #{$large-up} {
+			.row {
+				margin-top: 2rem;
+			}
+		}
+
+		h3 {
+			margin-top: 0;
+			line-height: 30px;
+			margin-bottom: 0.75rem;
+		}
+
+		.box {
+
+			.reviewer { 
+				font-size: 12px;
+				font-weight: bold;
+				text-align: right;
+				margin-top: 0.5rem;
+			}
+
+			@media #{$small-and-medium} {
+				margin-bottom: 4rem;
+			}
+		}
+
+		.item {
+			.item-icon {
+				vertical-align: top;
+				line-height: 1.4;
+				margin-right: 1rem;
+				float: left;
+			}
+
+			.item-content {
+				display: inline-block;
+				width: 85%;
+
+				h3 {
+					margin-bottom: 0.25rem;
+				}
+				ul {
+					list-style-type: none;
+					margin-left: 0;
+					margin-bottom: 0;
+					li {
+						line-height: 20px;
+					}
+				}			
+			}
+
+			@media #{$small-and-medium} {
+				margin-bottom: 2rem;
+			}	
 		}
 	}
 
