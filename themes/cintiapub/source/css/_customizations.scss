@@ -451,6 +451,18 @@ section#main {
 				}
 			}	
 		}
+
+		.see-more-button {
+			text-align: center;
+			margin-top: 2rem;
+
+			.button-text {
+				line-height: 32px;
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 1rem;
+			}
+		}
 	}
 
 	.collage {
@@ -517,10 +529,18 @@ section#main {
 
 	}
 
-	p.avatar {
-		text-align: center;
-		img {
-			border-radius: 100%;
+	.me {
+		.box {
+			li {
+				margin-bottom: 10px;
+			}
+		}
+
+		@media #{$small-only} {
+			.avatar {
+				text-align: center;
+				margin-top: 4rem;
+			}
 		}
 	}
 
