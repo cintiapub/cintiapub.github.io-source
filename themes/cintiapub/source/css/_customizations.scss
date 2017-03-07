@@ -175,10 +175,6 @@ section#main {
 	  }
     }
 
-	.collage > .row {
-      max-width: none;
-	}
-
 	.image-wrapper {
 		text-align: center;
 	}
@@ -407,17 +403,9 @@ section#main {
 		}
 
 		.box {
-
-			.reviewer { 
-				font-size: 12px;
-				font-weight: bold;
-				text-align: right;
-				margin-top: 0.5rem;
-			}
-
 			@media #{$small-and-medium} {
 				margin-bottom: 4rem;
-			}
+			}	
 		}
 
 		.item {
@@ -468,6 +456,10 @@ section#main {
 	.collage {
 		margin-top: 8rem;
 		text-align: center;
+
+		> .row {
+      		max-width: none;
+		}
 
 		$line: 24px;
 		.columns {
@@ -529,6 +521,13 @@ section#main {
 
 	}
 
+	.reviewer { 
+		font-size: 12px;
+		font-weight: bold;
+		text-align: right;
+		margin-top: 1rem;
+	}
+
 	.me {
 		.box {
 			li {
@@ -540,6 +539,24 @@ section#main {
 			.avatar {
 				text-align: center;
 				margin-top: 4rem;
+			}
+		}
+	}
+
+	.testimonials {
+		margin-top: 8rem;
+		padding: 4rem;
+		background-color: $color-1;
+
+		> .row {
+      		max-width: none;
+		}
+
+		.columns {
+			padding-right: 2rem;
+
+			@media #{$small-and-medium} {
+				margin-top: 2rem;
 			}
 		}
 	}
