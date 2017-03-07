@@ -1,5 +1,5 @@
-title: Contact
-layout: about
+title: Email received
+layout: email-received
 ---
 Thank you for contacting me. Your email has been received and will be given attention as soon as possible.
 
