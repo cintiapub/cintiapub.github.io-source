@@ -3,14 +3,14 @@
 
 $blue-link   	: #008CBA;
 $box			: #EEC4F3;
-$color-1		: rgba(#99FFCC, 0.6);
-$color-2		: rgba(#99FFFF, 0.6);
-$color-3		: rgba(#99CCFF, 0.6);
-$color-4		: rgba(#9999FF, 0.6);
-$color-5		: rgba(#FFFF99, 0.6);
-$color-6		: rgba(#FFCC99, 0.6);
-$color-7		: rgba(#FF9999, 0.6);
-$color-8		: rgba(#FF99CC, 0.6);
+$color-1		: rgba(#99FFCC, 0.4);
+$color-2		: rgba(#99FFFF, 0.4);
+$color-3		: rgba(#99CCFF, 0.4);
+$color-4		: rgba(#9999FF, 0.4);
+$color-5		: rgba(#FFFF99, 0.4);
+$color-6		: rgba(#FFCC99, 0.4);
+$color-7		: rgba(#FF9999, 0.4);
+$color-8		: rgba(#FF99CC, 0.4);
 
 body {
 	//background-image: url('/img/subtle_dots.png');	
@@ -221,6 +221,10 @@ section#main {
 
 		&.default {
 			border-color: $box;
+		}
+
+		&.intermediate {
+			border-color: $color-4;
 		}
 	}
 
