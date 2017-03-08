@@ -424,6 +424,10 @@ section#main {
 				display: inline-block;
 				width: 85%;
 
+				@media #{$small-only} {
+					width: 80%;
+				}
+
 				h3 {
 					margin-bottom: 0.25rem;
 				}
@@ -560,7 +564,7 @@ section#main {
 			padding-right: 2rem;
 
 			@media #{$small-and-medium} {
-				margin-top: 2rem;
+				margin-top: 4rem;
 			}
 		}
 	}
