@@ -1,6 +1,6 @@
-title: Hot lady
+title: Minimalist lady
 tag: Personal
-description: This fashion sketch is about hot lady.
+description: This fashion sketch is about minimalist lady.
 category: illustrations
 field: illustrations
 date: 2014/3/2
