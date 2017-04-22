@@ -365,14 +365,14 @@ section#main {
 						@include category-image-filter($color-1	);
 					}
 
-					&.home-web-design {
+					&.home-ux-design {
 						margin-bottom: 4rem;
-						@include category-image-filter($color-3);
+						@include category-image-filter($color-8);
 					}
 
-					&.home-ux-design {
+					&.home-web-design {
 						margin-top: 4rem;
-						@include category-image-filter($color-8);
+						@include category-image-filter($color-3);
 					}
 
 					&.home-illustrations {
