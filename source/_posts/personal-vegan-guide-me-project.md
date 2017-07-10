@@ -1,4 +1,4 @@
-title: VeganGuide.Me prototype
+title: VeganGuide.Me project
 tag: Personal
 description: VeganGuide.Me is a fully-responsive website designed to help saving animals lives through sharing knowledge, tips and guiding your vegan shopping experience, featuring a blazing-fast search bar.
 category: ux
