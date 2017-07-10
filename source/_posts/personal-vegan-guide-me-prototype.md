@@ -43,6 +43,12 @@ Besides vegan products, VeganGuide.Me will go beyound that and will also include
 
 In order to define the best way to present a vegan guide, me and my partner interviewed different profiles of vegans,  vegetarians and vegan-friendly people, so that we could study our solutions for the vegan guide.
 
+Among all the great feedback we got, here are some interesting comments from our users:
+
+- *“I'd like something that was easy to use and clear. Sometimes I encounter confusion about whether something is actually vegan.”* - User research 
+- *"A comprehensive guide that covers recommendations for vegan food, clothing, and products, would be amazing.”* - User research
+- *“I would love a feature showing results for all categories and showing the history of the company, product and all certifications.”* - User research
+
 We found out through user research that 51% of the users use a laptop of find information about vegan products, 43% use a smartphone and 6% use tablets and other platforms.
   
 It turned out that a responsive website is the best way to present our vegan guide, with a strong focus on the mobile concept.  
