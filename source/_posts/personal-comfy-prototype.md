@@ -26,18 +26,11 @@ software:
 - Also check out <a href="http://cintiaromero.com/comfy" target="_blank">cintiaromero.com/comfy</a>.
 
 <br/>
-### Features
+### The problem definition 
 
-- **INTERACTIVE SCHEDULE**: Add talks, people and download files. You can create your personal agenda.
-- **INCREASE YOUR NETWORK**: Connect and chat with attendees, speakers and companies. Exchange your virtual business card.
-- **POST-CONFERENCE**: Discover all the events, parties and meetups after the event. Get in touch.
-- **UP TO DATE**: Alerts and notifications on time. You won't miss a talk or event. Just check your inbox.
-- Use the QR Code provided in your badge to add talks, people and interact during the event. 
+To build a groundbreaking conference app, offering an innovative and solid way to present all the agenda items, organize the attendee's schedules, connect people and send notifications to all the participants.
 
-<div class="hide-for-small-only">
-    <h3>Persona</h3>
-    <img src="https://farm4.staticflickr.com/3695/32465487433_94bd4ac708_h.jpg" />
-</div>
+Our first priority is to make it really simple for the users to interact with each other using the QR Code provided in their badges. They can scan the QR code to add talks, connect with people and interact with sponsors during the event. 
 
 <br/>
 ### The User Research
@@ -71,13 +64,28 @@ software:
 <br/>
 ### The Design Solution
 
+Concepts to solve the problem:
+
+- **INTERACTIVE SCHEDULE**: Add talks, people and download files. You can create your personal agenda.
+- **INCREASE YOUR NETWORK**: Connect and chat with attendees, speakers and companies. Exchange your virtual business card.
+- **POST-CONFERENCE**: Discover all the events, parties and meetups after the event. Get in touch.
+- **UP TO DATE**: Alerts and notifications on time. You won't miss a talk or event. Just check your inbox.
+- Use the QR Code provided in your badge to add talks, people and interact during the event. 
+
+<div class="hide-for-small-only">
+    <h3>Persona</h3>
+    <img src="https://farm4.staticflickr.com/3695/32465487433_94bd4ac708_h.jpg" />
+</div>
+
+#### The Design Process
+
 There are many variations of conferences app, but the majority of them have suffered with outdated information, poor networking and confused interface. 
 
 Comfy came to inject interactivity to the conferences, by providing a clean visual design, files to download, a personalized agenda, functional social features, interaction with companies, and a chance to improve the attendees networking during and after the event. 
 
-The user will get the QR Code provided in the Conference, that offers many possibilities. The user can add people, talks, companies and exchange a "virtual business card" during the event.
+The user will get the QR Code provided in the Conference, which offers many possibilities. The user will be able to add people, talks, companies and exchange a "virtual business card" during the event.
 
-Comfy had great tests results and it's improving the features everyday, getting amazing feedbacks for the most important person in the process: the user and the conference attendee.
+Comfy had great tests results and it is improving its features everyday, getting very valuable user feedback for the most important user in the process: the conference attendee.
 
 <br/>
 ### Navigable prototype
