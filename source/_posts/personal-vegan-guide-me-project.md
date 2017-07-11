@@ -28,6 +28,7 @@ software:
 <br/>
 ### Related work
 - Check out <a href="http://veganguide.me" target="_blank">veganguide.me</a>.
+- Check out <a href="/logos/personal-vegan-guide-me-logo/">VeganGuide.Me logo</a>.
 
 <br/>
 ### The problem definition 
