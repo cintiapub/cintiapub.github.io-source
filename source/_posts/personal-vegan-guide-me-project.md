@@ -5,11 +5,6 @@ category: ux
 field: ux
 date: 2017/07/09
 image: 
-- https://farm5.staticflickr.com/4240/35831406215_ea92cb8ffb
-- https://farm5.staticflickr.com/4255/35831406575_407f8f713a
-- https://farm5.staticflickr.com/4280/35790899346_6e886d541d
-- https://farm5.staticflickr.com/4284/35790899176_f6f9cfec2e
-- https://farm5.staticflickr.com/4212/35831405815_f5508ce80d
 - https://farm5.staticflickr.com/4257/35790900796_b546d7afea
 - https://farm5.staticflickr.com/4288/35790900606_26b166c131
 - https://farm5.staticflickr.com/4289/35831408935_baaa22c816
@@ -91,3 +86,22 @@ Based in some wireframes, we designed the UI concepts that reflect all that we h
 After a few iterations, we decided to start just with the basic categories of vegan products, and later on, we will add more categories, based in future tests and statistics.  
 
 On the image gallery below you can find the initial black & white wireframes, and the final solution which got implemented on the website.
+
+<br/>
+### The first wireframes
+
+<br/>
+#### Homepage layout
+<img src="https://farm5.staticflickr.com/4240/35831406215_ea92cb8ffb_h.jpg" class="center" />
+
+<br/>
+#### Category page layout - Same design for all categories
+<img src="https://farm5.staticflickr.com/4280/35790899346_6e886d541d_h.jpg" class="center" />
+
+<br/>
+#### Article page layout
+<img src="https://farm5.staticflickr.com/4284/35790899176_f6f9cfec2e_h.jpg" class="center" />
+
+<br/>
+### Mobile version layout
+<img src="https://farm5.staticflickr.com/4212/35831405815_f5508ce80d_h.jpg" class="center" />

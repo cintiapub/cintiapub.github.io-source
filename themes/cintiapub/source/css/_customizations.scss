@@ -391,6 +391,11 @@ section#main {
 
 	}
 
+	img.center {
+		display: block;
+		margin: 0 auto;
+	}
+
 	.designing {
 		margin-top: 7rem;
 
@@ -438,7 +443,8 @@ section#main {
 					li {
 						line-height: 20px;
 					}
-				}			
+				}		
+							
 			}
 
 			@media #{$small-and-medium} {

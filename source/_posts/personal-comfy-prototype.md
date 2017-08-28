@@ -88,5 +88,10 @@ The user will get the QR Code provided in the Conference, which offers many poss
 Comfy had great tests results and it is improving its features everyday, getting very valuable user feedback for the most important user in the process: the conference attendee.
 
 <br/>
+### The first wireframes
+
+<img src="https://farm5.staticflickr.com/4391/36853338945_8afacc458d_h.jpg" />
+
+<br/>
 ### Navigable prototype
 <iframe width="377" height="667" src="https://xd.adobe.com/embed/4e5e4f89-409f-4b60-bfd0-207b5e36b823/" frameborder="0" allowfullscreen></iframe>
